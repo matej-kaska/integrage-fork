@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "_variables";
+@import 'components/**/*.scss';
+@import 'pages/**/*.scss';
+@import 'contexts/**/*.scss';
+
+#root {
+  width: 100%;
+  height: 100%;
+  font-family: "Baloo 2", "Nunito";
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/Baloo-2-latin.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/Baloo-2-latin-ext.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/Nunito-cyrillic.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("/fonts/Nunito-cyrillic-ext.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/fonts/Montserrat-latin.woff2") format('woff2');
+}
+
+/* Disabled */
+.disabled {
+  cursor: not-allowed;
+}
+
+.scrollbar, html {
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba($color-primary, 0.2);
+    height: 8px;
+    border-radius: 5px;
+  }
+  &::-webkit-scrollbar-track {
+    border-radius: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba($color-primary, 0.4);
+    border-radius: 3px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba($color-primary, 0.2);
+  }
+}
+
+@supports not (-webkit-appearance: none) {
+  .scrollbar, html {
+    scrollbar-width: thin;
+    scrollbar-color: #AFAFAF #EFEFEF;
+  }
+}
+
+a {
+  line-height: 24px;
+}
+
+h1 {
+  line-height: 50px;
+  font-size: 2.75rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p {
+  color: $color-black;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 26px;
+  text-align: justify;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"], .radio-field {
+  padding-left: 2rem;
+  padding-right: 1rem;
+  border: 2px solid rgba(#252525, 0.5);
+  border-radius: 200px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 4rem;
+
+  &:focus-within {
+    outline: none;
+    border: 2px solid $color-primary;
+  }
+}
+
+input[type="checkbox"] {
+  margin-right: 1rem;
+  width: 1rem;
+  min-width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  accent-color: $color-accent;
+  border: 2px solid black;
+  appearance: none;
+
+  &:hover {
+    background-color: rgba($color-accent, 0.5);
+    box-shadow: inset 0 0 0 1px white;
+  }
+
+  &:checked {
+    background-color: $color-accent;
+    border-color: $color-accent;
+    background-image: url(/src/images/done.svg);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:hover {
+      background-color: darken($color-accent, 10%);
+      border-color: darken($color-accent, 10%);
+      box-shadow: none !important;
+    }
+  }
+}
+
+input[type="radio"] {
+  margin-right: 1rem;
+  width: 1rem;
+  min-width: 1rem;
+  height: 1rem;
+  cursor: pointer;
+  border-radius: 50%;
+  accent-color: $color-accent;
+  appearance: none;
+  border: 2px solid black;
+
+  &:hover {
+    background-color: rgba($color-accent, 0.5);
+    box-shadow: inset 0 0 0 2px white;
+  }
+
+  &:checked {
+    background-color: $color-accent;
+    box-shadow: inset 0 0 0 2px white;
+
+    &:hover {
+      background-color: darken($color-accent, 10%);
+    }
+  }
+}
+
+.eye {
+  &:hover {
+    path {
+      fill: rgba($color-primary, 1);
+      fill-opacity: 0.9;
+    }
+  }
+}

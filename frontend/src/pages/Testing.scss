@@ -1,0 +1,28 @@
+.testing {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100svh - 223px);
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 3rem;
+    width: 85vw;
+
+    h1 {
+      text-align: center;
+      margin-block: 1rem;
+      font-size: 40px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 1rem;
+    }
+  }
+}

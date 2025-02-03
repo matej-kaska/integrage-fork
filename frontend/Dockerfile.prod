@@ -1,0 +1,37 @@
+# Build stage
+FROM node:20-alpine AS builder
+
+ARG VITE_WEBSITE_URL
+
+ENV VITE_WEBSITE_URL=$VITE_WEBSITE_URL
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install && npx update-browserslist-db@latest -y && npm run build
+
+RUN apk add --no-cache brotli
+
+RUN find /app/dist -type f -exec brotli -Z {} \;
+
+RUN find /app/src/images -type f -exec brotli -Z {} \;
+
+RUN find /app/public -type f -exec brotli -Z {} \;
+
+# Runtime stage
+FROM alpine:3
+
+RUN apk add --no-cache brotli nginx nginx-mod-http-brotli
+
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+COPY --from=builder /app/src/images /usr/share/nginx/html/src/images
+
+COPY --from=builder /app/public /usr/share/nginx/html
+
+COPY nginx.conf /etc/nginx/http.d/default.conf
+
+EXPOSE 3000
+
+CMD ["nginx", "-g", "daemon off;"]

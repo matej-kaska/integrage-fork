@@ -1,0 +1,100 @@
+.guides-header-blob {
+  display: flex;
+  padding-bottom: 10rem;
+  background-image: url(/src/images/login-blob.svg);
+  background-size: cover;
+  background-position: bottom;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4vh;
+    width: 100%;
+    height: calc(100% + 4vh);
+    background-image: url(/src/images/login-blob.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .wrapper {
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    
+
+
+    .left-side {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      width: 50%;
+      padding-right: 2rem;
+
+      .text-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        gap: 1rem;
+
+        h1 {
+          color: $color-primary;
+        }
+
+        button {
+          width: fit-content;
+        }
+      }
+    }
+
+    .right-side {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 50%;
+
+      svg {
+        width: clamp(10rem, 90%, 30rem);
+        height: clamp(10rem, 90%, 30rem);
+        margin-left: 10%;
+        object-fit: scale-down;
+      }
+
+      .loading {
+        height: auto;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header-blob {
+    padding-bottom: 8rem;
+    .wrapper {
+      flex-direction: column;
+      .left-side {
+        width: 100% !important;
+        align-items: center !important;
+        padding-right: 0 !important;
+
+        p {
+          margin-bottom: 1rem;
+        }
+      }
+      .right-side {
+        width: 100% !important;
+        align-items: center !important;
+      }
+    }
+  }
+}

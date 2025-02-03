@@ -1,0 +1,26 @@
+.options-txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 12rem;
+  border: rgba(#252525,0.7) 2px solid;
+  border-radius: 30px;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+
+  &.focused {
+    border-color: $color-primary;
+  }
+
+  textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding-right: 2px;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,276 @@
+{
+    "NAVBAR": {
+        "HOME": "Startseite",
+        "SURVEY": "Fragebogen",
+        "GUIDES": "Leitfäden",
+        "LOGIN": "Anmelden",
+        "LOGOUT": "Ausloggen",
+        "DETAILS": "Meine Angaben",
+        "SURVEYS": "Ausgefüllte Fragebögen"
+    },
+    "QUESTION": {
+        "BACK": "Zurück",
+        "NEXT": "Weiter",
+        "TOPIC": "Thema",
+        "SAVE_EXIT": "Speichern und beenden",
+        "ANSWER-TOO-LONG": "Antwort ist zu lang",
+        "COMPLETE": "Fertig",
+        "SELECT": "Antwort auswählen",
+        "TYPE_HERE": "Hier schreiben...",
+        "NOT_COMPLETED": "Beantworten Sie alle Fragen",
+        "NONE_OF_THE_ABOVE": "Keine der oben genannten Optionen"
+    },
+    "RESULTS": {
+        "SURVEY_ASSESSMENT": "Auswertung des Fragebogens",
+        "DATE_OF_COMPLETION": "Datum des Fragebogens",
+        "LAST_COMPLETED": "zuletzt ausgefüllter Fragebogen",
+        "NUMBER_OF_POINTS": "Anzahl der Punkte",
+        "LEVEL": "erreichtes Niveau",
+        "RECOMMENDATION": "Empfehlung",
+        "HIDE_RESULTS": "Ergebnisse ausblenden",
+        "SHOW_RESULTS": "Ergebnisse anzeigen"
+    },
+    "HISTORY": {
+        "COMPLETED_SURVEYS": "Abgeschlossene Fragebögen",
+        "NO_SURVEYS": "Sie haben noch keine Fragebögen ausgefüllt",
+        "LAST": "Zuletzt abgeschlossen"
+    },
+    "HOMEPAGE": {
+        "INTRO": {
+            "TITLE": "Das Selbstbewertungsinstrument",
+            "DESCRIPTION": "Das Instrument ist hauptsächlich auf Arbeitnehmer über 55 Jahre zugeschnitten. Es konzentriert sich auf drei Bereiche: technologische Fähigkeiten, Fähigkeiten zur Integration am Arbeitsplatz sowie Wohlbefinden und Arbeitszufriedenheit. Sie können es testen und Ihre Stärken in jedem Bereich herausfinden. Jeder Teil wird separat bewertet. Sie müssen nicht alle Teile absolvieren. Sie können wählen, was Sie interessiert oder was für Sie wichtig ist.",
+            "TAKE_SURVEY": "Fragebogen ausfüllen"
+        },
+        "ABOUT": {
+            "TITLE": "Über uns",
+            "WHO_WE_ARE": {
+                "TITLE": "Wer wir sind",
+                "DESCRIPTION_1": "Dieses Selbstbewertungsinstrument wurde im Rahmen des Projekts \"Ein praktischer Ansatz zur Unterstützung der gesunden Anpassung und Integration von Arbeitnehmern im Alter von 55+ in den Arbeitsmarkt\" entwickelt. Das Konsortium der Durchführenden umfasst Vertreter aus den folgenden Ländern: Tschechische Republik, Slowenien, Ungarn, Slowakei, Deutschland, Kroatien, Serbien, Bulgarien, Bosnien und Herzegowina."
+            },
+            "ORGANIZATIONS": {
+                "TITLE": "Beteiligte Organisationen"
+            },
+            "OUR_GOAL": {
+                "TITLE": "Unser Ziel",
+                "DESCRIPTION_1": "Das Projekt zielt darauf ab, die gesunde Integration älterer Arbeitnehmer (55+) in den Arbeitsmarkt zu unterstützen, ihr Wissen zu nutzen und ihnen bei der Anpassung an die Herausforderungen neuer Arbeitsformen zu helfen. Ziel ist es, ihre Erwerbsbeteiligung zu erhöhen, eine Frühverrentung zu vermeiden und ihr produktives Leben zu verlängern.",
+                "DESCRIPTION_2": "Das Selbstbewertungsinstrument kann vor allem für Einzelpersonen und deren persönliche Entwicklungsplanung nützlich sein, aber auch für Unternehmen (in Bezug auf Personalwesen, Strategien für Vielfalt und Integration und personalisierte Entwicklung) und für politische Entscheidungsträger."
+            },
+            "TAKE_SURVEY": {
+                "TITLE": "Den Fragebogen ausfüllen",
+                "DESCRIPTION": "Erforschen Sie Ihre Stärken und entdecken Sie Bereiche, in denen Sie sich verbessern können, mit unserem Selbstbewertungstool, das auf Menschen ab 55 Jahren zugeschnitten ist. Nehmen Sie jetzt teil und machen Sie einen Schritt zur Verbesserung Ihrer beruflichen und persönlichen Entwicklung.",
+                "REGISTER": "Registrieren"
+            }
+        }
+    },
+    "GUIDES": {
+        "TITLE": "Leitfäden",
+        "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus nisi nec pharetra venenatis. Etiam vel purus arcu. Cras fringilla accumsan nunc vitae malesuada. Curabitur eu dolor a ipsum tempor molestie id non odio. Proin at commodo quam."
+    },
+    "FILL_SURVEY": {
+        "FILL_REGISTER": "Mit Registrierung ausfüllen",
+        "FILL_REGISTER_DESC": "Wenn Sie sich registrieren, erhalten Sie vollen Zugang zu allen Funktionen unseres Selbstbewertungs-Tools. Ihre Ergebnisse werden sicher gespeichert, so dass Sie Ihre Fortschritte im Laufe der Zeit verfolgen und Ihre Ergebnisse in verschiedenen Bereichen vergleichen können. Außerdem können Sie bei der Registrierung unvollständige Fragebögen speichern, so dass Sie sie zu einem späteren Zeitpunkt erneut ausfüllen können.",
+        "FILL_WITHOUT_REGISTER": "Ausfüllen ohne Registrierung",
+        "FILL_WITHOUT_REGISTER_DESC": "Wenn Sie sich nicht registrieren, können Sie sich trotzdem mit dem Selbstbewertungstool beschäftigen und Ihre Ergebnisse nach Abschluss einsehen. Bitte beachten Sie jedoch, dass Ihre Ergebnisse ohne Registrierung nicht gespeichert werden und Sie Ihre Fortschritte im Laufe der Zeit nicht verfolgen können."
+    },
+    "TOPIC_SELECT": {
+        "FILL_SURVEY": "Fragebogen ausfüllen",
+        "FILL_SURVEY_AGAIN": "Fragebogen erneut ausfüllen",
+        "CONTINUE": "Weiter",
+        "DONE": "Abgeschlossen",
+        "NOT_DONE": "Nicht abgeschlossen",
+        "IN_PROGRESS": "In Arbeit",
+        "LAST_COMPLETED": "Zuletzt abgeschlossen",
+        "RESULTS": "Ergebnisse anzeigen",
+        "RETRY_INFO": "Es wurde ein unvollständiger Fragebogen von einem nicht angemeldeten Benutzer gefunden. Um einen neuen Fragebogen zu starten, drücken Sie die Schaltfläche links.",
+        "FILL_ALL": "Bitte füllen Sie alle 3 Fragebögen aus!"
+    },
+    "LOGIN": {
+        "TITLE": "IntegrAGE-Anmeldung",
+        "NO_ACCOUNT": "Sie haben noch kein Konto?",
+        "REGISTER": "Registrieren Sie sich",
+        "EMAIL": "E-Mail",
+        "PASSWORD": "Passwort",
+        "REMEMBER_ME": "mich erinnern",
+        "FORGOT_PASSWORD": "Passwort vergessen",
+        "LOGIN": "Eintragen"
+    },
+    "FORGOT_PASSWORD": {
+        "TITLE": "Haben Sie Ihr Passwort vergessen?",
+        "DESCRIPTION": "Geben Sie die E-Mail ein, die Sie bei der Anmeldung verwendet haben, um Ihr Passwort wiederherzustellen. Sie erhalten dann einen Link zum Zurücksetzen des Passworts.",
+        "EMAIL": "E-Mail",
+        "SEND": "Link zum Zurücksetzen senden",
+        "EMAIL_SENT": "E-Mail mit Reset-Link erfolgreich gesendet!"
+    },
+    "RESET_PASSWORD": {
+        "TITLE": "Neues Passwort",
+        "PASSWORD": "Passwort",
+        "CONFIRM_PASSWORD": "Bestätigen Sie das Passwort",
+        "CHANGE": "Passwort ändern"
+    },
+    "REGISTER": {
+        "TITLE": "IntegrAGE-Anmeldung",
+        "HAVE_ACCOUNT": "Sie haben bereits ein Konto?",
+        "LOGIN": "Eintragen",
+        "FIRST_NAME": "Vornamen",
+        "LAST_NAME": "Nachname",
+        "EMAIL": "E-Mail",
+        "COUNTRY": "Land",
+        "TYPE_RESIDENCE": "Art des Wohnsitzes",
+        "AGE": "Alter",
+        "GENDER": "Geschlecht",
+        "EDUCATION_LEVEL": "Bildungsniveau",
+        "EMPLOYED": "Angestellter",
+        "YES": "ja",
+        "NO": "keine",
+        "JOB_SECTOR": "Arbeitsbereich",
+        "UNEMPLOYED": "Dauer der Arbeitslosigkeit (in Monaten)",
+        "PASSWORD": "Passwort",
+        "CONFIRM_PASSWORD": "Bestätigen Sie das Passwort",
+        "GDPR_1": "Ich akzeptiere die",
+        "GDPR_2": "Verarbeitung meiner persönlichen Daten",
+        "REGISTER": "Registrieren Sie sich",
+        "ACTIVATION_SENT": "Der Aktivierungslink wurde an Ihre E-Mail Adresse gesendet. Bitte überprüfen Sie auch Ihren Spam-Ordner.",
+        "JOB_SECTORS": {
+            "JOB_SECTORS": "Branche",
+            "ADMINISTRATION": "Verwaltung",
+            "AGRICULTURE_FOOD_INDUSTRY": "Landwirtschaft und Lebensmittelindustrie",
+            "ARTS_CULTURE": "Kunst & Kultur",
+            "AUTOMOTIVE_INDUSTRY": "Autoindustrie",
+            "BANKING": "Bankwesen",
+            "CHEMICAL_INDUSTRY": "Chemische Industrie",
+            "CONSTRUCTION_REAL_ESTATE": "Bauwesen und Immobilien",
+            "CUSTOMER_SUPPORT": "Kundenbetreuung",
+            "ECONOMICS_FINANCE_ACCOUNTING": "Wirtschaft, Finanzen und Buchhaltung",
+            "EDUCATION_SCIENCE_RESEARCH": "Bildung, Wissenschaft und Forschung",
+            "ELECTRICAL_ENGINEERING_ENERGY": "Elektrotechnik und Energie",
+            "GENERAL_LABOR": "Allgemeine Arbeit",
+            "HEALTHCARE_SOCIAL_CARE": "Gesundheits- und Sozialfürsorge",
+            "HUMAN_RESOURCES": "Personalwesen",
+            "INFORMATION_TECHNOLOGY": "Informationstechnologie",
+            "INSURANCE": "Versicherung",
+            "LAW_LEGISLATION": "Recht & Gesetzgebung",
+            "LEASING": "Leasing",
+            "MANAGEMENT": "Verwaltung",
+            "MANUFACTURING": "Herstellung",
+            "MARKETING_ADVERTISING_PR": "Marketing, Werbung und PR",
+            "MECHANICAL_ENGINEERING": "Maschinenwesen",
+            "MINING_METALLURGY": "Bergbau und Metallurgie",
+            "PHARMACEUTICAL_INDUSTRY": "Pharmazeutische Industrie",
+            "PUBLIC_ADMINISTRATION": "Öffentliche Verwaltung",
+            "QUALITY_MANAGEMENT": "Qualitätsmanagement",
+            "SECURITY_AND_PROTECTION": "Sicherheit und Schutz",
+            "SENIOR_MANAGEMENT": "Senior Management",
+            "SERVICES": "Dienstleistungen",
+            "TELECOMMUNICATIONS": "Telekommunikation",
+            "TEXTILE_LEATHER_FASHION_INDUSTRY": "Textil-, Leder- und Modeindustrie",
+            "TOURISM_HOSPITALITY_GASTRONOMY": "Tourismus, Gastgewerbe und Gastronomie",
+            "TRADE": "Handel",
+            "TRANSLATION_INTERPRETING": "Übersetzen und Dolmetschen",
+            "TRANSPORTATION_SHIPPING_LOGISTICS": "Transport, Versand und Logistik",
+            "WATER_MANAGEMENT_FORESTRY_ENVIRONMENT": "Wasserwirtschaft, Forstwirtschaft und Umwelt",
+            "WOODWORKING_INDUSTRY": "Holzverarbeitende Industrie"
+        },
+        "GENDERS": {
+            "GENDER": "Geschlecht",
+            "MALE": "Männlich",
+            "FEMALE": "Weiblich",
+            "OTHER": "Andere",
+            "PREFER_NOT_TO_SAY": "Ich möcht ehierzu keine Angabe machen"
+        },
+        "RESIDENCE": {
+            "TYPE_OF_RESIDENCE": "Art des Wohnsitzes",
+            "CITIZEN": "Bürger",
+            "IMMIGRANT": "Einwanderer"
+        },
+        "EDUCATION": {
+            "EDUCATION_LEVEL": "Bildungsstand",
+            "PRIMARY": "Grundschulbildung",
+            "SECONDARY_CERTIFICATE": "Mittlere Schulbildung mit Berufsabschluss",
+            "SECONDARY_DIPLOMA": "Mittlere Schulbildung mit Diplom",
+            "POST_SECONDARY": "Berufsausbildung nach der Schule",
+            "TERTIARY": "Hochschulbildung"
+        }
+    },
+    "SETTINGS": {
+        "CANCEL": "Abbrechen",
+        "DELETE": "Löschen",
+        "CHANGE_PASSWORD": "Passwort ändern",
+        "OLD_PASSWORD": "Altes Passwort",
+        "NEW_PASSWORD": "Neues Passwort",
+        "NEW_PASSWORD_AGAIN": "Wieder neues Passwort",
+        "CONFIRM_CHANGE_PASSWORD": "Passwort ändern",
+        "EDIT_DETAILS": "Details bearbeiten",
+        "DELETE_ACCOUNT": "Konto löschen",
+        "DELETE_ACCOUNT_CONFIRM": "Wollen Sie Ihr Konto wirklich löschen?",
+        "SAVE_DETAILS": "Details speichern",
+        "CANCEL_EDIT": "Bearbeiten abbrechen",
+        "CONFIRM_PASSWORD": "Passwort zur Bestätigung eingeben",
+        "DELETED": "Ihr Konto wurde erfolgreich gelöscht",
+        "PROFILE_UPDATED": "Ihr Profil wurde aktualisiert"
+    },
+    "EXPORT": {
+        "SELECT_LANGUAGE": "Sprache für den Export auswählen",
+        "SELECT_TOPIC": "Thema auswählen",
+        "SELECT_COUNTRY": "Land auswählen",
+        "NO_LOCATION": "Alle Länder",
+        "SELECT_TIME": "Zeitbereich wählen",
+        "FROM": "Von",
+        "TO": "Bis",
+        "NUMBER_OF_AVAIABLE": "Anzahl der verfügbaren Fragebögen",
+        "EXPORT": "Exportieren nach CSV",
+        "OPTIONAL": "optional"
+    },
+	"FOOTER": {
+		"INFORMATION": "Informationen zum",
+		"PROTECTION": "Datenschutz"
+	},
+    "SNACKBAR": {
+        "LOGIN": "Sie wurden erfolgreich eingeloggt",
+        "LOGOUT": "Sie wurden erfolgreich abgemeldet",
+        "ACTIVATION_SENT": "Der Aktivierungslink wurde an Ihre E-Mail Adresse gesendet",
+        "ACTIVATION_SUCCESS": "Ihr Konto wurde erfolgreich aktiviert",
+        "REQUEST_SENT": "Der Link zum Zurücksetzen des Passworts wurde an Ihre E-Mail-Adresse gesendet.",
+        "PASSWORD_CHANGED": "Ihr Passwort wurde erfolgreich geändert",
+        "ERROR": "Es ist ein Fehler aufgetreten",
+        "ERROR_LOGGED_IN": "Sie müssen eingeloggt sein, um diese Aktion durchzuführen"
+    },
+    "VALIDATION": {
+        "REQUIRED": "Dieses Feld ist erforderlich",
+        "EMAIL": "E-Mail Adresse ist ungültig",
+        "PASSWORD_MIN": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+        "PASSWORD_MAX": "Das Passwort darf höchstens 100 Zeichen lang sein.",
+        "CONFIRM_PASSWORD": "Passwörter stimmen nicht überein",
+        "GDPR": "Sie müssen der Verarbeitung Ihrer personenbezogenen Daten zustimmen",
+        "AGE_MAX": "Das Alter darf nicht mehr als 150 Jahre betragen.",
+        "FIRST_NAME_MAX": "Der Vorname darf höchstens 100 Zeichen lang sein.",
+        "LAST_NAME_MAX": "Der Nachname darf höchstens 100 Zeichen lang sein.",
+        "LOCATION_MAX": "Das Land darf höchstens 100 Zeichen lang sein.",
+        "UNEMPLOYED_MAX": "Die Anzahl der Monate darf nicht mehr als 1000 betragen.",
+        "UNEMPLOYED_MIN": "Die Anzahl der Monate darf nicht negativ sein"
+    },
+    "BACKEND-RESPONSES": {
+        "Invalid credentials": "Ungültige Anmeldedaten",
+        "Please fill all required fields": "Bitte füllen Sie alle erforderlichen Felder aus",
+        "Passwords don't match": "Passwörter stimmen nicht überein",
+        "Password length must be at least 8 characters": "Das Passwort muss mindestens 8 Zeichen lang sein.",
+        "Password must be at most 100 characters long": "Das Passwort darf höchstens 100 Zeichen lang sein.",
+        "Invalid e-mail": "Ungültige E-Mail",
+        "This activation link doesn't exist": "Dieser Aktivierungslink existiert nicht",
+        "This activation link was already used": "Dieser Aktivierungslink wurde bereits verwendet",
+        "This activation link already expired": "Dieser Aktivierungslink ist bereits abgelaufen",
+        "This e-mail is already taken": "Diese E-Mail ist bereits vergeben",
+        "New passwords do not match": "Neue Kennwörter stimmen nicht überein",
+        "This reset link doesn't exist": "Dieser Link zum Zurücksetzen existiert nicht",
+        "This reset link was already used": "Dieser Reset-Link wurde bereits verwendet",
+        "This reset link has already expired": "Dieser Reset-Link ist bereits abgelaufen",
+        "User not found": "Benutzer nicht gefunden",
+        "Old password is incorrect": "Altes Passwort ist falsch",
+        "Password is incorrect": "Das Passwort ist falsch",
+        "You have already requested a registration link, wait 5 minutes before requesting another one": "Sie haben bereits einen Registrierungslink angefordert. Warten Sie 5 Minuten, bevor Sie einen weiteren Link anfordern.",
+        "You have already requested a password reset link, wait 5 minutes before requesting another one": "Sie haben bereits einen Link zum Zurücksetzen des Passworts angefordert. Warten Sie 5 Minuten, bevor Sie einen weiteren Link anfordern.",
+        "This topic does not exist": "Dieses Thema existiert nicht",
+        "An unexpected error occurred": "Ein unerwarteter Fehler ist aufgetreten",
+        "This survey attempt is invalid": "Dieser Fragebogenversuch ist ungültig",
+        "This survey attempt is not completed": "Dieser Fragebogenversuch wird nicht ausgefüllt"
+    }
+}

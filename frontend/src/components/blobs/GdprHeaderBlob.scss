@@ -1,0 +1,49 @@
+.gdpr-header-blob {
+  display: flex;
+  padding-bottom: 7rem;
+  background-image: url(/src/images/login-blob.svg);
+  background-size: cover;
+  background-position: bottom;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  align-items: center;
+  margin-bottom: 4rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -4vh;
+    width: 100%;
+    height: calc(100% + 4vh);
+    background-image: url(/src/images/login-blob.svg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 0.5;
+    z-index: -1;
+  }
+
+  .wrapper {
+    padding-top: 4rem;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 70%;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-size: 1.375rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .gdpr-header-blob {
+    .wrapper {
+      max-width: 100% !important;
+    }
+  }
+}

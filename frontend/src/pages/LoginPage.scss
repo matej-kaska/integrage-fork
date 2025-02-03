@@ -1,0 +1,195 @@
+.login-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100svh;
+  justify-content: flex-start;
+  max-height: 100svh;
+
+  .login-page {
+    width: 100%;
+    height: clamp(34rem, 35vw, 100vh);
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    background-image: url(/src/images/login-blob.svg);
+    background-size: cover;
+    background-position: center top -5vh;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+  
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(/src/images/login-blob.svg);
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      opacity: 0.5;
+      z-index: -1;
+      overflow: hidden;
+    }
+  
+    .left-side {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      flex-grow: 1;
+      flex-shrink: 1;
+      width: 30%;
+  
+      .back-button {
+        background-color: $color-accent;
+        color: white;
+        border-radius: 50%;
+        width: 2.5rem;
+        height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        &:hover {
+          background-color: darken($color-accent, 10%);
+        }
+
+        svg {
+          height: 1rem;
+        }
+      }
+    }
+  
+    .middle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      flex-grow: 1;
+      flex-shrink: 1;
+      width: clamp(400px, 40%, 500px);
+      
+      h1 {
+        text-transform: none;
+        color: $color-accent;
+        text-align: center;
+      }
+  
+      .register-wrapper {
+        margin-bottom: 3rem;
+        margin-top: 0.5rem;
+  
+        .no-account {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 1rem;
+          font-weight: bold;
+          font-size: 1.25rem;
+  
+          a {
+            color: $color-primary;
+            user-select: none;
+  
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+  
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  
+        input[type="password"], input[type="email"], input[type="text"] {
+          width: clamp(350px, 30vw, 500px);
+          height: 4rem;
+          margin-block: 0.25rem;
+        }
+
+        .password-wrapper {
+          position: relative;
+
+          input {
+            padding-right: 4rem;
+          }
+
+          .eye {
+            cursor: pointer;
+            position: absolute;
+            left: 87%;
+            top: 0;
+            height: 4.5rem;
+            max-height: 4.5rem;
+            width: 2.25rem;
+            user-select: none;
+          }
+        }
+  
+        .form-footer {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-weight: bold;
+          text-wrap: nowrap;
+          margin-top: -4px;
+          gap: 1.5rem;
+          font-size: 1.2rem;
+          margin-bottom: 0.25rem;
+  
+          .remember-me-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            cursor: pointer;
+            user-select: none;
+            
+            input {
+              margin-right: -0.5rem;
+              z-index: 1;
+            }
+  
+            label {
+              padding-left: 1rem;
+              cursor: pointer;
+            }
+          }
+  
+          .forgot-password {
+            cursor: pointer;
+            color: $color-primary;
+            user-select: none;
+  
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+  
+        button {
+          margin-top: 2rem;
+        }
+      }
+    }
+  
+    .right-side {
+      display: flex;
+      flex-grow: 1;
+      flex-shrink: 1;
+      width: calc(30% + 8px);
+    }
+  }
+  
+  .filler {
+    width: 100%;
+    height: 15svh;
+    background-color: #d9dff5;
+  }
+}

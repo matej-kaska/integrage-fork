@@ -1,0 +1,95 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 5rem;
+  box-shadow: 0px 4px 6px #8099cc;
+  background-color: $color-secondary;
+  position: relative;
+  z-index: 10;
+
+  .logo-wrapper {
+    display: flex;
+    align-items: center;
+    width: clamp(200px, 50%, 50%);
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      height: 5rem;
+
+      &:hover {
+        path, text, tspan {
+          fill: darken($color-accent, 10%) !important;
+        }
+      }
+    }
+  }
+
+  .links-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      width: 100%;
+
+      li {
+        display: flex;
+        align-items: baseline;
+        font-size: 1.2rem;
+        margin-block: 1rem;
+        cursor: pointer;
+        text-transform: uppercase;
+
+        a {
+          display: flex;
+          align-items: baseline;
+          color: $color-primary;
+          font-weight: 700;
+        }
+
+        &:hover {
+          text-decoration: underline;
+          color: #333;
+        }
+      }
+
+      .no-underline {
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+
+    .user-wrapper {
+      display: flex;
+      width: 100%;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      align-items: center;
+      flex-direction: row;
+      flex: 0 0 10%;
+      justify-content: space-between;
+      gap: 2rem;
+      
+      span {
+        margin-inline: 0.5rem;
+      }
+
+      button {
+        text-wrap: nowrap;
+      }
+
+      .language-dropdown {
+        margin-inline: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "Activation link"
+msgstr "Aktiválási link"
+
+msgid "User"
+msgstr "Felhasználó"
+
+msgid "here is your password reset link for the IntegrAGE platform, after clicking on the link you can change your password."
+msgstr "itt van a jelszó-visszaállítási link az IntegrAGE platformhoz, a linkre kattintva megváltoztathatja jelszavát."
+
+msgid "Password reset link"
+msgstr "Jelszó-visszaállítási link"
+
+msgid "If the link cannot be opened, copy the following address into your browser:"
+msgstr "Ha a link nem nyitható meg, másolja be a következő címet a böngészőjébe:"
+
+msgid "This email was generated automatically, please do not reply to it. If you did not request this email, please ignore it."
+msgstr "Ez az e-mail automatikusan generálódott, kérjük, ne válaszoljon rá. Ha nem Ön kérte ezt az e-mailt, kérjük, hagyja figyelmen kívül."
+
+msgid "Best regards,"
+msgstr "Üdvözlettel,"
+
+msgid "The IntegrAGE Team"
+msgstr "Az IntegrAGE csapat"
+
+msgid "here is your registration link for the IntegrAGE platform, after clicking the link your account will be activated."
+msgstr "itt van a regisztrációs link az IntegrAGE platformhoz, a linkre való kattintás után a fiókja aktiválódik."

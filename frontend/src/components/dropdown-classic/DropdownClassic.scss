@@ -1,0 +1,109 @@
+.dropdown-classic {
+
+  .selected-option {
+    width: clamp(400px, 35vw, 500px);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    background-color: white;
+    flex-direction: row;
+    cursor: pointer;
+    text-wrap: nowrap;
+    gap: 4px;
+    transition: border-radius 0.3s ease;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: 2px solid rgba(#252525, 0.5);
+
+    &.unselected {
+      color: #9ca3af;
+    }
+    
+    &:focus-within {
+      outline: none;
+    }
+
+    &:hover {
+      border-color: $color-primary !important;
+    }
+
+    &.open {
+      border-color: lighten($color-primary, 0.5) !important;
+    }
+
+    &:focus {
+      border-color: $color-primary !important;
+    }
+
+    &.no-select {
+      color: #9ca3af;
+    }
+
+    .selected-option-wrapper {
+      align-items: center;
+      gap: 8px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      display: inline-block;
+      white-space: nowrap;
+    }
+
+    .arrow {
+      height: 16px;
+      margin-right: 16px;
+      transition: transform 0.3s ease;
+    }
+
+    &.opened {
+      border-bottom-left-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+
+      .arrow {
+        transform: rotate(90deg) !important;
+      }
+    }
+  }
+
+  .panel {
+    border: 2px solid rgba(#252525, 0.5);
+    background-color: white !important;
+    max-height: 20rem;
+    width: clamp(400px, 35vw, 500px);
+    max-width: none !important;
+    display: flex;
+    align-items: center;
+    border-radius: 30px !important;
+    margin-top: -2px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-color: $color-primary !important;
+
+    &.jobField {
+      overflow: hidden;
+    }
+
+    .options-list {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      overflow-y: auto;
+      width: 100%;
+
+      
+      &:focus {
+        outline: none;
+      }
+
+      li {
+
+        label {
+          pointer-events: none;
+        }
+      }
+    }
+  }
+}

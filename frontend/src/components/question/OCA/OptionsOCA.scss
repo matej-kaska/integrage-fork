@@ -1,0 +1,20 @@
+.options-oca {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+
+  .option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+
+    label {
+      cursor: pointer;
+    }
+  }
+}

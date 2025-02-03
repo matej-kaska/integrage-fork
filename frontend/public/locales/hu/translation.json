@@ -1,0 +1,276 @@
+{
+    "NAVBAR": {
+        "HOME": "Kezdőlap",
+        "SURVEY": "Kérdőív",
+        "GUIDES": "Útmutatók",
+        "LOGIN": "Bejelentkezés",
+        "LOGOUT": "Kijelentkezés",
+        "DETAILS": "Az én adataim",
+        "SURVEYS": "Kitöltött kérdőívek"
+    },
+    "QUESTION": {
+        "BACK": "Vissza",
+        "NEXT": "Következő",
+        "TOPIC": "Téma",
+        "SAVE_EXIT": "Mentés és kilépés",
+        "ANSWER-TOO-LONG": "A válasz túl hosszú",
+        "COMPLETE": "Befejezés",
+        "SELECT": "válasz kiválasztása",
+        "TYPE_HERE": "itt kezdjen el gépelni...",
+        "NOT_COMPLETED": "Válaszoljon minden kérdésre",
+        "NONE_OF_THE_ABOVE": "A fenti lehetőségek egyike sem"
+    },
+    "RESULTS": {
+        "SURVEY_ASSESSMENT": "kérdőíves felmérés",
+        "DATE_OF_COMPLETION": "a kérdőív kitöltésének ideje",
+        "LAST_COMPLETED": "legutóbb kitöltött kérdőív",
+        "NUMBER_OF_POINTS": "a helyes válaszok száma",
+        "LEVEL": "elért szint",
+        "RECOMMENDATION": "javaslat",
+        "HIDE_RESULTS": "eredmények elrejtése",
+        "SHOW_RESULTS": "eredmények megjelenítése"
+    },
+    "HISTORY": {
+        "COMPLETED_SURVEYS": "Kitöltött kérdőívek",
+        "NO_SURVEYS": "Ön még nem töltött ki kérdőívet.",
+        "LAST": "Utoljára befejezett"
+    },
+    "HOMEPAGE": {
+        "INTRO": {
+            "TITLE": "Az önértékelési eszköz",
+            "DESCRIPTION": "Az eszköz elsősorban az 55 év feletti munkavállalóknak lett kialakítva. Három területre összpontosít: technológiai jártasság, munkahelyi integrációs készségek, valamint személyes fejlődés és jólét. Tesztelheti magát, és megtudhatja, hogy az egyes területeken milyen erős készségei vannak. Minden egyes rész külön-külön kerül értékelésre. Nem kell mindet kitöltenie. Kiválaszthatja, ami érdekli, vagy ami fontos Önnek.",
+            "TAKE_SURVEY": "Kérdőív kitöltése"
+        },
+        "ABOUT": {
+            "TITLE": "Rólunk",
+            "WHO_WE_ARE": {
+                "TITLE": "Kik vagyunk",
+                "DESCRIPTION_1": "Ezt az önértékelési eszközt az \"Egy gyakorlati megközelítés az 55 év feletti munkavállalók egészséges munkaerő-piaci alkalmazkodásának és integrációjának támogatására\" című projekt részeként fejlesztették ki. A megvalósítók konzorciuma a következő országok képviselőit foglalja magában: Csehország, Szlovénia, Magyarország, Szlovákia, Németország, Horvátország, Szerbia, Bulgária, Bosznia és Hercegovina."
+            },
+            "ORGANIZATIONS": {
+                "TITLE": "Érintett szervezetek"
+            },
+            "OUR_GOAL": {
+                "TITLE": "Célunk",
+                "DESCRIPTION_1": "A projekt célja, hogy támogassa az idősebb munkavállalók (55 év felettiek) egészséges munkaerő-piaci integrációját, hasznosítsa a tudásukat, és segítsa őket az új munkamódszerek kihívásaihoz való alkalmazkodásban. A cél a részvételük növelése, a korai nyugdíjazás elkerülése és a produktív életük meghosszabbítása.",
+                "DESCRIPTION_2": "Az önértékelési eszköz különösen az egyéneknek és személyes fejlődésük tervezésére, de a vállalatok (a HR, a sokszínűség és befogadás stratégiái, valamint a személyre szabott fejlesztés szempontjából) és a politikai döntéshozók számára is hasznos lehet."
+            },
+            "TAKE_SURVEY": {
+                "TITLE": "Töltse ki a kérdőívet",
+                "DESCRIPTION": "Fedezze fel erősségeit, és a fejlesztendő területeit az 55 év felettiekre szabott önértékelő eszközünkkel. Vegyen részt most, és tegyen egy lépést karrierje és személyes fejlődésének előrehaladásáért.",
+                "REGISTER": "Regisztráció"
+            }
+        }
+    },
+    "GUIDES": {
+        "TITLE": "Útmutatók",
+        "DESCRIPTION": "?"
+    },
+    "FILL_SURVEY": {
+        "FILL_REGISTER": "Töltse ki a regisztrációval",
+        "FILL_REGISTER_DESC": "A regisztrációval teljes hozzáférést kap önértékelő eszközünk minden funkciójához. Eredményeit biztonságosan tároljuk, így nyomon követheti fejlődését az idő múlásával, és összehasonlíthatja a különböző területeken elért eredményeit. A regisztráció továbbá rugalmasságot biztosít Önnek, hogy elmentse a hiányos kérdőíveket, így később bármikor visszatérhet hozzájuk.",
+        "FILL_WITHOUT_REGISTER": "Töltse ki regisztráció nélkül",
+        "FILL_WITHOUT_REGISTER_DESC": "Ha úgy dönt, hogy nem regisztrál, akkor is szabadon részt vehet az önértékelési eszközben, és megtekintheti eredményeit a befejezés után. Felhívjuk azonban a figyelmét, hogy regisztráció nélkül az eredményei nem kerülnek elmentésre, és nem tudja nyomon követni a fejlődését az idő múlásával."
+    },
+    "TOPIC_SELECT": {
+        "FILL_SURVEY": "Kérdőív kitöltése",
+        "FILL_SURVEY_AGAIN": "Töltse ki újra a kérdőívet",
+        "CONTINUE": "Folytatás",
+        "DONE": "Befejezett",
+        "NOT_DONE": "Nem fejeződött be",
+        "IN_PROGRESS": "Folyamatban",
+        "LAST_COMPLETED": "Legutóbb befejezett",
+        "RESULTS": "Eredmények megjelenítése",
+        "RETRY_INFO": "Hiányos kérdőívet találtak egy be nem jelentkezett felhasználótól. Új kérdőív indításához nyomja meg a bal oldali gombot.",
+        "FILL_ALL": "Kérjük, töltse ki mind a 3 kérdőívet!"
+    },
+    "LOGIN": {
+        "TITLE": "IntegrAGE bejelentkezés",
+        "NO_ACCOUNT": "Nincs fiókja?",
+        "REGISTER": "Regisztráció",
+        "EMAIL": "E-mail",
+        "PASSWORD": "Jelszó",
+        "REMEMBER_ME": "emlékezz rám",
+        "FORGOT_PASSWORD": "elfelejtett jelszó",
+        "LOGIN": "Bejelentkezés"
+    },
+    "FORGOT_PASSWORD": {
+        "TITLE": "Elfelejtette jelszavát?",
+        "DESCRIPTION": "Írja be azt az e-mail címet, amelyet regisztráláskor használt, a jelszó visszaállításához használt. Kapni fog egy jelszó-visszaállítási linket.",
+        "EMAIL": "E-mail",
+        "SEND": "Visszaállítási link küldése",
+        "EMAIL_SENT": "Sikeresen elküldött email a visszaállítási linkkel!"
+    },
+    "RESET_PASSWORD": {
+        "TITLE": "Új jelszó",
+        "PASSWORD": "Jelszó",
+        "CONFIRM_PASSWORD": "Jelszó megerősítése",
+        "CHANGE": "Jelszó módosítása"
+    },
+    "REGISTER": {
+        "TITLE": "IntegrAGE regisztráció",
+        "HAVE_ACCOUNT": "Már van fiókja?",
+        "LOGIN": "Bejelentkezés",
+        "FIRST_NAME": "Keresztnév",
+        "LAST_NAME": "Vezetéknév",
+        "EMAIL": "E-mail",
+        "COUNTRY": "Ország",
+        "TYPE_RESIDENCE": "A lakóhely típusa",
+        "AGE": "Kor",
+        "GENDER": "Nem",
+        "EDUCATION_LEVEL": "Iskolai végzettség",
+        "EMPLOYED": "Alkalmazott vagyok",
+        "YES": "igen",
+        "NO": "nem",
+        "JOB_SECTOR": "Munkahelyi szektor",
+        "UNEMPLOYED": "A munkanélküliség időtartama (hónapokban)",
+        "PASSWORD": "Jelszó",
+        "CONFIRM_PASSWORD": "Jelszó megerősítése",
+        "GDPR_1": "Egyetértek a",
+        "GDPR_2": "személyes adataim feldolgozásával",
+        "REGISTER": "Regisztráció",
+        "ACTIVATION_SENT": "Az aktiválási linket elküldtük az Ön e-mail címére. Kérjük, ellenőrizze a spam mappát is.",
+        "JOB_SECTORS": {
+            "JOB_SECTORS": "Munkahelyi ágazatok",
+            "ADMINISTRATION": "Adminisztráció",
+            "AGRICULTURE_FOOD_INDUSTRY": "Mezőgazdaság és élelmiszeripar",
+            "ARTS_CULTURE": "Művészet és kultúra",
+            "AUTOMOTIVE_INDUSTRY": "Autóipar",
+            "BANKING": "Banki tevékenység",
+            "CHEMICAL_INDUSTRY": "Vegyipar",
+            "CONSTRUCTION_REAL_ESTATE": "Építőipar és ingatlanok",
+            "CUSTOMER_SUPPORT": "Ügyfélszolgálat",
+            "ECONOMICS_FINANCE_ACCOUNTING": "Közgazdaságtan, pénzügyek és számvitel",
+            "EDUCATION_SCIENCE_RESEARCH": "Oktatás, tudomány és kutatás",
+            "ELECTRICAL_ENGINEERING_ENERGY": "Villamosmérnöki & Energia",
+            "GENERAL_LABOR": "Általános fizikai munka",
+            "HEALTHCARE_SOCIAL_CARE": "Egészségügy és szociális ellátás",
+            "HUMAN_RESOURCES": "Humán erőforrás",
+            "INFORMATION_TECHNOLOGY": "Információs technológia",
+            "INSURANCE": "Biztosítás",
+            "LAW_LEGISLATION": "Jog és jogalkotás",
+            "LEASING": "Lízing",
+            "MANAGEMENT": "Menedzsment",
+            "MANUFACTURING": "Gyártás",
+            "MARKETING_ADVERTISING_PR": "Marketing, reklám és PR",
+            "MECHANICAL_ENGINEERING": "Gépészet",
+            "MINING_METALLURGY": "Bányászat és kohászat",
+            "PHARMACEUTICAL_INDUSTRY": "Gyógyszeripar",
+            "PUBLIC_ADMINISTRATION": "Közigazgatás",
+            "QUALITY_MANAGEMENT": "Minőségellenőrzés",
+            "SECURITY_AND_PROTECTION": "Biztonság és védelem",
+            "SENIOR_MANAGEMENT": "Felső vezetés",
+            "SERVICES": "Szolgáltatások",
+            "TELECOMMUNICATIONS": "Távközlés",
+            "TEXTILE_LEATHER_FASHION_INDUSTRY": "Textil, bőr és divatipar",
+            "TOURISM_HOSPITALITY_GASTRONOMY": "Turizmus, vendéglátás és gasztronómia",
+            "TRADE": "Kereskedelem",
+            "TRANSLATION_INTERPRETING": "Fordítás és tolmácsolás",
+            "TRANSPORTATION_SHIPPING_LOGISTICS": "Szállítás, szállítás és logisztika",
+            "WATER_MANAGEMENT_FORESTRY_ENVIRONMENT": "Vízgazdálkodás, erdőgazdálkodás és környezetvédelem",
+            "WOODWORKING_INDUSTRY": "Fafeldolgozó ipar"
+        },
+        "GENDERS": {
+            "GENDER": "Nem",
+            "MALE": "Férfi",
+            "FEMALE": "Nő",
+            "OTHER": "Egyéb",
+            "PREFER_NOT_TO_SAY": "Nem szeretném megadni"
+        },
+        "RESIDENCE": {
+            "TYPE_OF_RESIDENCE": "A lakóhely típusa",
+            "CITIZEN": "Polgár",
+            "IMMIGRANT": "Bevándorló"
+        },
+        "EDUCATION": {
+            "EDUCATION_LEVEL": "Iskolai végzettség",
+            "PRIMARY": "Általános iskolai oktatás",
+            "SECONDARY_CERTIFICATE": "Középfokú oktatás szakképesítéssel",
+            "SECONDARY_DIPLOMA": "Középfokú oktatás érettségivel",
+            "POST_SECONDARY": "Középiskola utáni szakképzés",
+            "TERTIARY": "Felsőoktatás"
+        }
+    },
+    "SETTINGS": {
+        "CANCEL": "Vissza",
+        "DELETE": "Törlés",
+        "CHANGE_PASSWORD": "Jelszó módosítása",
+        "OLD_PASSWORD": "Régi jelszó",
+        "NEW_PASSWORD": "Új jelszó",
+        "NEW_PASSWORD_AGAIN": "Jelszó megerősítése",
+        "CONFIRM_CHANGE_PASSWORD": "Jelszó módosítása",
+        "EDIT_DETAILS": "részletek szerkesztése",
+        "DELETE_ACCOUNT": "fiók törlése",
+        "DELETE_ACCOUNT_CONFIRM": "Tényleg törölni szeretné a fiókját?",
+        "SAVE_DETAILS": "részletek mentése",
+        "CANCEL_EDIT": "szerkesztés visszavonása",
+        "CONFIRM_PASSWORD": "Adja meg a jelszót a megerősítéshez",
+        "DELETED": "A fiókját sikeresen töröltük",
+        "PROFILE_UPDATED": "A profilja frissült"
+    },
+    "EXPORT": {
+        "SELECT_LANGUAGE": "Az exportban használt nyelv kiválasztása",
+        "SELECT_TOPIC": "Téma kiválasztása",
+        "SELECT_COUNTRY": "Válasszon országot",
+        "NO_LOCATION": "Minden ország",
+        "SELECT_TIME": "Időtartomány kiválasztása",
+        "FROM": "A dátumtól",
+        "TO": "A dátumig",
+        "NUMBER_OF_AVAIABLE": "A rendelkezésre álló kérdőívek száma",
+        "EXPORT": "Exportálás CSV-be",
+        "OPTIONAL": "opcionális"
+    },
+	"FOOTER": {
+		"INFORMATION": "információ az",
+		"PROTECTION": "adatvédelemről"
+	},
+    "SNACKBAR": {
+        "LOGIN": "Sikeresen bejelentkezett",
+        "LOGOUT": "Sikeresen kijelentkezett",
+        "ACTIVATION_SENT": "Az aktiválási linket elküldtük az Ön e-mail címére",
+        "ACTIVATION_SUCCESS": "A fiókját sikeresen aktiváltuk",
+        "REQUEST_SENT": "A jelszó-visszaállítási linket elküldtük az Ön e-mail címére.",
+        "PASSWORD_CHANGED": "A jelszava sikeresen megváltozott",
+        "ERROR": "Hiba történt",
+        "ERROR_LOGGED_IN": "A művelet végrehajtásához be kell jelentkeznie."
+    },
+    "VALIDATION": {
+        "REQUIRED": "A mező kitöltése kötelező",
+        "EMAIL": "Az e-mail cím érvénytelen",
+        "PASSWORD_MIN": "A jelszónak legalább 8 karakter hosszúnak kell lennie",
+        "PASSWORD_MAX": "A jelszó legfeljebb 100 karakter hosszú lehet",
+        "CONFIRM_PASSWORD": "A jelszavak nem egyeznek",
+        "GDPR": "Önnek bele kell egyeznie a személyes adatainak feldolgozásába.",
+        "AGE_MAX": "Az életkor nem lehet több mint 150 év",
+        "FIRST_NAME_MAX": "A keresztnév legfeljebb 100 karakter hosszú lehet",
+        "LAST_NAME_MAX": "A vezetéknév legfeljebb 100 karakter hosszú lehet",
+        "LOCATION_MAX": "Az ország legfeljebb 100 karakter hosszú lehet",
+        "UNEMPLOYED_MAX": "A hónapok száma nem lehet több mint 1000.",
+        "UNEMPLOYED_MIN": "A hónapok száma nem lehet negatív"
+    },
+    "BACKEND-RESPONSES": {
+        "Invalid credentials": "Érvénytelen bejelentkezési adatok",
+        "Please fill all required fields": "Kérjük, töltse ki az összes kötelező mezőt",
+        "Passwords don't match": "A jelszavak nem egyeznek",
+        "Password length must be at least 8 characters": "A jelszó hosszának legalább 8 karakteresnek kell lennie",
+        "Password must be at most 100 characters long": "A jelszó legfeljebb 100 karakter hosszú lehet",
+        "Invalid e-mail": "Érvénytelen e-mail",
+        "This activation link doesn't exist": "Ez az aktiválási link nem létezik",
+        "This activation link was already used": "Ezt az aktiválási linket már használták",
+        "This activation link already expired": "Ez az aktiválási link már lejárt",
+        "This e-mail is already taken": "Ez az e-mail már foglalt",
+        "New passwords do not match": "Az új jelszavak nem egyeznek",
+        "This reset link doesn't exist": "Ez a visszaállítási link nem létezik",
+        "This reset link was already used": "Ezt a visszaállítási linket már használták",
+        "This reset link has already expired": "Ez a visszaállítási link már lejárt",
+        "User not found": "Felhasználó nem található",
+        "Old password is incorrect": "A régi jelszó helytelen",
+        "Password is incorrect": "A jelszó helytelen",
+        "You have already requested a registration link, wait 5 minutes before requesting another one": "Ön már kért regisztrációs linket, várjon 5 percet, mielőtt újat kérne.",
+        "You have already requested a password reset link, wait 5 minutes before requesting another one": "Ön már kért jelszó-visszaállítási linket, várjon 5 percet, mielőtt újat kérne.",
+        "This topic does not exist": "Ez a téma nem létezik",
+        "An unexpected error occurred": "Váratlan hiba történt",
+        "This survey attempt is invalid": "Ez a kérdőív-kísérlet érvénytelen",
+        "This survey attempt is not completed": "Ez a kérdőív-kísérlet nem teljesült"
+    }
+}

@@ -1,0 +1,74 @@
+.gdpr-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100svh;
+  
+  p {
+    font-size: 1.375rem;
+  }
+
+  h2 {
+    font-size: 1.675rem;
+  }
+
+  .content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 70%;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .section {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+
+      h2 {
+        margin-bottom: -0.5rem;
+      }
+    }
+
+    ul {
+      margin-left: 1.25rem;
+    }
+
+    li {
+      font-size: 1.375rem;
+    }
+
+    ul>li {
+      list-style: disc;
+      margin-left: 1.25rem;
+    }
+
+    ul>ul {
+      li {
+        list-style: circle;
+        margin-left: 2.25rem;
+      }
+      ul>li {
+        list-style: square;
+        margin-left: 3.25rem;
+      }
+      &>ul>ul {
+        li {
+          list-style: square;
+          margin-left: 4.25rem;
+        }
+        ul>li {
+          list-style: square;
+          margin-left: 5.25rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .gdpr-page {
+    .content {
+      max-width: 100% !important;
+    }
+  }
+}

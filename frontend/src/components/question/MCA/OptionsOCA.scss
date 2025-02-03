@@ -1,0 +1,31 @@
+.options-mca {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+
+  .option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    
+    &:hover {
+      input[type="checkbox"]::after {
+        visibility: visible;
+      }
+      input[type="checkbox"]::before {
+        visibility: visible;
+      }
+    }
+
+    label {
+      margin-left: -1rem;
+      padding-left: 1rem;
+      cursor: pointer;
+    }
+  }
+}

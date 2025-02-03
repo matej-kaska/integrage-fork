@@ -1,0 +1,119 @@
+.country-dropdown {
+
+  .selected-country {
+    width: clamp(400px, 35vw, 500px);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    background-color: white;
+    flex-direction: row;
+    cursor: pointer;
+    text-wrap: nowrap;
+    gap: 4px;
+    transition: border-radius 0.3s ease;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: 2px solid rgba(#252525, 0.5);
+
+    &.unselected {
+      color: #9ca3af;
+    }
+    
+    &:focus-within {
+      outline: none;
+    }
+
+    &:hover {
+      border-color: $color-primary !important;
+    }
+
+    &.hover {
+      border-color: $color-primary !important;
+    }
+
+    &:focus {
+      border-color: $color-primary !important;
+    }
+
+    .selected-country-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .selected-flag {
+      width: 22px;
+      height: 16.5px;
+      min-width: 22px;
+      min-height: 16.5px;
+      border-radius: 5px;
+    }
+
+    .arrow {
+      height: 16px;
+      margin-right: 16px;
+      transition: transform 0.3s ease;
+    }
+
+    &.opened {
+      border-bottom-left-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+
+      .arrow {
+        transform: rotate(90deg) !important;
+      }
+    }
+  }
+
+  .panel {
+    border: 2px solid rgba(#252525, 0.5);
+    background-color: white !important;
+    max-height: 20rem;
+    max-width: none !important;
+    align-items: center;
+    border-radius: 30px !important;
+    margin-top: -2px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    overflow: hidden;
+
+    &:hover {
+      border-color: $color-primary !important;
+    }
+
+    &.hover {
+      border-color: lighten($color-primary, 0.5) !important;
+    }
+
+    input {
+      padding-left: 1rem;
+      width: 95% !important;
+      max-height: 2.25rem;
+      height: 2.25rem;
+      min-height: 2.25rem;
+    }
+
+    .country-list {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      overflow-y: auto;
+      width: 100%;
+
+      li {
+        padding-inline: 1rem;
+        padding-block: 0.25rem;
+        img {
+          pointer-events: none;
+          width: 22px;
+          border-radius: 5px;
+          padding-right: 4px;
+        }
+      }
+    }
+  }
+}

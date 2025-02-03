@@ -1,0 +1,293 @@
+{
+	"NAVBAR": {
+		"HOME": "Domov",
+		"SURVEY": "Dotazník",
+		"GUIDES": "Kurzy",
+		"LOGIN": "Přihlásit se",
+		"LOGOUT": "Odhlásit se",
+		"DETAILS": "Moje údaje",
+		"SURVEYS": "Vyplněné dotazníky"
+	},
+
+	"QUESTION": {
+		"BACK": "Zpět",
+		"NEXT": "Další",
+		"TOPIC": "Téma",
+		"SAVE_EXIT": "Uložit a ukončit",
+		"COMPLETE": "Dokončit",
+		"SELECT": "vyberte odpověď",
+		"TYPE_HERE": "zde začněte psát...",
+		"NOT_COMPLETED": "Zodpovězte všechny otázky",
+		"NONE_OF_THE_ABOVE": "Žádná z výše uvedených možností"
+	},
+
+	"RESULTS": {
+		"SURVEY_ASSESSMENT": "hodnocení dotazníku",
+		"DATE_OF_COMPLETION": "datum vyplnění",
+		"LAST_COMPLETED": "naposledy vyplněný dotazník",
+		"NUMBER_OF_POINTS": "počet bodů",
+		"LEVEL": "dosažená úroveň",
+		"RECOMMENDATION": "doporučení",
+		"HIDE_RESULTS": "skrýt výsledky",
+		"SHOW_RESULTS": "zobrazit výsledky"
+	},
+
+	"HISTORY": {
+		"COMPLETED_SURVEYS": "Vyplněné dotazníky",
+		"NO_SURVEYS": "Zatím jste nevyplnili žádný dotazník",
+		"LAST": "Naposledy vyplněný"
+	},
+
+		"HOMEPAGE": {
+				"INTRO": {
+						"TITLE": "Nástroj pro sebehodnocení",
+						"DESCRIPTION": "Tento nástroj je většinou přizpůsoben pro zaměstnance starší 55 let. Zaměřuje se na tři oblasti: technologickou zdatnost, dovednosti pro integraci na pracovišti a pohodu a spokojenost s prací. Můžete si jej vyzkoušet a zjistit své silné stránky v jednotlivých oblastech. Každá část se hodnotí zvlášť. Nemusíte je vyplnit všechny. Můžete si vybrat, co vás zajímá nebo co je pro vás důležité.",
+						"TAKE_SURVEY": "Vyplňte dotazník"
+				},
+				"ABOUT": {
+						"TITLE": "O nás",
+						"WHO_WE_ARE": {
+								"TITLE": "Kdo jsme",
+								"DESCRIPTION_1": "Tento nástroj pro sebehodnocení byl vyvinut v rámci projektu \"Praktický přístup k podpoře zdravé adaptace a integrace pracovníků ve věku 55+ na trhu práce\". Konsorcium realizátorů zahrnuje zástupce z následujících zemí: Česká republika, Slovinsko, Maďarsko, Slovensko, Německo, Chorvatsko, Srbsko, Bulharsko, Bosna a Hercegovina."
+						},
+						"ORGANIZATIONS": {
+								"TITLE": "Zapojené organizace"
+						},
+						"OUR_GOAL": {
+								"TITLE": "Náš cíl",
+								"DESCRIPTION_1": "Cílem projektu je podpořit zdravé začlenění starších pracovníků (55+) na trh práce, využít jejich znalostí a pomoci jim přizpůsobit se výzvám nových způsobů práce. Cílem je zvýšit jejich účast, zabránit předčasnému odchodu do důchodu a prodloužit jejich produktivní život.",
+								"DESCRIPTION_2": "Nástroj sebehodnocení může být užitečný zejména pro jednotlivce a plánování jejich osobního rozvoje, ale také pro firmy (z hlediska lidských zdrojů, strategií rozmanitosti a začleňování a individuálního rozvoje) a pro tvůrce politik."
+						},
+						"TAKE_SURVEY": {
+								"TITLE": "Vyplňte dotazník",
+								"DESCRIPTION": "Prozkoumejte své silné stránky a objevte oblasti, ve kterých se můžete zlepšit, pomocí našeho nástroje pro sebehodnocení, který je přizpůsoben osobám ve věku 55+. Zúčastněte se nyní a udělejte krok ke zlepšení své kariéry a osobního rozvoje.",
+								"REGISTER": "Zaregistrujte se"
+						}
+				}
+		},
+
+	"GUIDES": {
+		"TITLE": "Kurzy",
+		"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus nisi nec pharetra venenatis. Etiam vel purus arcu. Cras fringilla accumsan nunc vitae malesuada. Curabitur eu dolor a ipsum tempor molestie id non odio. Proin at commodo quam."
+	},
+
+	"FILL_SURVEY": {
+			"FILL_REGISTER": "Vyplňte registraci",
+			"FILL_REGISTER_DESC": "Registrací získáte plný přístup ke všem funkcím našeho nástroje pro sebehodnocení. Vaše výsledky budou bezpečně uloženy, což vám umožní sledovat svůj pokrok v průběhu času a porovnávat výsledky v různých oblastech. Kromě toho vám registrace umožní uložit si případné nedokončené dotazníky, abyste se k nim mohli později vrátit, jak vám to bude vyhovovat.",
+			"FILL_WITHOUT_REGISTER": "Vyplňte bez registrace",
+			"FILL_WITHOUT_REGISTER_DESC": "Pokud se rozhodnete nezaregistrovat, můžete se i tak plně zapojit do sebehodnotícího nástroje a po dokončení si prohlédnout své výsledky. Upozorňujeme však, že bez registrace nebudou vaše výsledky uloženy a nebudete moci sledovat svůj pokrok v čase."
+	},
+
+	"TOPIC_SELECT": {
+		"FILL_SURVEY": "Vyplnit dotazník",
+		"FILL_SURVEY_AGAIN": "Vyplnit dotazník znovu",
+		"CONTINUE": "Pokračovat",
+		"DONE": "Splněno",
+		"NOT_DONE": "Nesplněno",
+		"IN_PROGRESS": "Rozpracováno",
+		"LAST_COMPLETED": "Naposledy vyplněno",
+		"RESULTS": "Zobrazit výsledky",
+		"RETRY_INFO": "Byl nalezen nedokončený dotazník od nepřihlášeného uživatele. Pro zahájení nového dotazníku stiskněte tlačítko vlevo."
+	},
+
+	"LOGIN": {
+		"TITLE": "Přihlášení IntegrAGE",
+		"NO_ACCOUNT": "Nemáte účet?",
+		"REGISTER": "Zaregistrujte se",
+		"EMAIL": "E-mail",
+		"PASSWORD": "Heslo",
+		"REMEMBER_ME": "zapamatovat si mě",
+		"FORGOT_PASSWORD": "zapomenuté heslo",
+		"LOGIN": "Přihlásit se"
+	},
+
+	"FORGOT_PASSWORD": {
+		"TITLE": "Zapomněli jste heslo?",
+		"DESCRIPTION": "Zadejte e-mail, který jste použili při registraci. Obdržíte odkaz pro obnovu hesla.",
+		"EMAIL": "E-mail",
+		"SEND": "Odeslat odkaz",
+		"EMAIL_SENT": "E-mail s odkazem pro obnovu hesla byl úspěšně odeslán!"
+	},
+
+	"RESET_PASSWORD": {
+		"TITLE": "Nové heslo",
+		"PASSWORD": "Heslo",
+		"CONFIRM_PASSWORD": "Potvrzení hesla",
+		"CHANGE": "Změnit heslo"
+	},
+
+	"REGISTER": {
+		"TITLE": "Registrace IntegrAGE",
+		"HAVE_ACCOUNT": "Máte již účet?",
+		"LOGIN": "Přihlásit se",
+		"FIRST_NAME": "Jméno",
+		"LAST_NAME": "Příjmení",
+		"EMAIL": "E-mail",
+		"COUNTRY": "Země",
+		"TYPE_RESIDENCE": "Typ pobytu",
+		"AGE": "Věk",
+		"GENDER": "Pohlaví",
+		"EDUCATION_LEVEL": "Úroveň vzdělání",
+		"EMPLOYED": "Jsem zaměstnaný",
+		"YES": "ano",
+		"NO": "ne",
+		"JOB_SECTOR": "Oblast práce",
+		"UNEMPLOYED": "Délka nezaměstnanosti (v měsících)",
+		"PASSWORD": "Heslo",
+		"CONFIRM_PASSWORD": "Potvrzení hesla",
+		"GDPR_1": "Souhlasím se",
+		"GDPR_2": "zpracováním mých osobních údajů",
+		"REGISTER": "Vytvořit účet",
+		"ACTIVATION_SENT": "Aktivační odkaz byl odeslán na vaši e-mailovou adresu",
+
+		"JOB_SECTORS": {
+			"JOB_SECTORS": "Pracovní odvětví",
+			"ADMINISTRATION": "Administrativa",
+			"AGRICULTURE_FOOD_INDUSTRY": "Zemědělský a potravinářský průmysl",
+			"ARTS_CULTURE": "Umění a kultura",
+			"AUTOMOTIVE_INDUSTRY": "Automobilový průmysl",
+			"BANKING": "Bankovnictví",
+			"CHEMICAL_INDUSTRY": "Chemický průmysl",
+			"CONSTRUCTION_REAL_ESTATE": "Stavebnictví a nemovitosti",
+			"CUSTOMER_SUPPORT": "Zákaznická podpora",
+			"ECONOMICS_FINANCE_ACCOUNTING": "Ekonomika, finance a účetnictví",
+			"EDUCATION_SCIENCE_RESEARCH": "Vzdělávání, věda a výzkum",
+			"ELECTRICAL_ENGINEERING_ENERGY": "Elektrotechnika a energetika",
+			"GENERAL_LABOR": "Obecné práce",
+			"HEALTHCARE_SOCIAL_CARE": "Zdravotnictví a sociální péče",
+			"HUMAN_RESOURCES": "Personální služby",
+			"INFORMATION_TECHNOLOGY": "Informační technologie",
+			"INSURANCE": "Pojištění",
+			"LAW_LEGISLATION": "Právo & legislativa",
+			"LEASING": "Leasingové služby",
+			"MANAGEMENT": "Management",
+			"MANUFACTURING": "Výroba",
+			"MARKETING_ADVERTISING_PR": "Marketing, reklama a PR",
+			"MECHANICAL_ENGINEERING": "Strojírenství",
+			"MINING_METALLURGY": "Těžba a hutnictví",
+			"PHARMACEUTICAL_INDUSTRY": "Farmaceutický průmysl",
+			"PUBLIC_ADMINISTRATION": "Veřejná správa",
+			"QUALITY_MANAGEMENT": "Řízení kvality",
+			"SECURITY_AND_PROTECTION": "Bezpečnost a ochrana",
+			"SENIOR_MANAGEMENT": "Vyšší management",
+			"SERVICES": "Služby",
+			"TELECOMMUNICATIONS": "Telekomunikace",
+			"TEXTILE_LEATHER_FASHION_INDUSTRY": "Textilní, kožedělný a módní průmysl",
+			"TOURISM_HOSPITALITY_GASTRONOMY": "Cestovní ruch, pohostinství a gastronomie",
+			"TRADE": "Obchodování",
+			"TRANSLATION_INTERPRETING": "Překlady a tlumočení",
+			"TRANSPORTATION_SHIPPING_LOGISTICS": "Doprava, přeprava a logistika",
+			"WATER_MANAGEMENT_FORESTRY_ENVIRONMENT": "Vodní hospodářství, lesnictví a životní prostředí",
+			"WOODWORKING_INDUSTRY": "Dřevozpracující průmysl"
+		},
+		"GENDERS": {
+			"GENDER": "Pohlaví",
+			"MALE": "Muž",
+			"FEMALE": "Žena",
+			"OTHER": "Ostatní",
+			"PREFER_NOT_TO_SAY": "Preferuji neodpovídat"
+		},
+		"RESIDENCE": {
+			"TYPE_OF_RESIDENCE": "Typ pobytu",
+			"CITIZEN": "Občan",
+			"IMMIGRANT": "Přistěhovalec"
+		},
+		"EDUCATION": {
+			"EDUCATION_LEVEL": "Úroveň vzdělání",
+			"PRIMARY": "Základní vzdělávání",
+			"SECONDARY_CERTIFICATE": "Střední vzdělání s výučním listem",
+			"SECONDARY_DIPLOMA": "Středoškolské vzdělání s maturitou",
+			"POST_SECONDARY": "Postsekundární odborné vzdělávání",
+			"TERTIARY": "Vysokoškolské vzdělávání"
+		}
+	},
+
+	"SETTINGS": {
+		"CANCEL": "Zrušit",
+		"DELETE": "Smazat",
+		"CHANGE_PASSWORD": "Změna hesla",
+		"OLD_PASSWORD": "Původní heslo",
+		"NEW_PASSWORD": "Nové heslo",
+		"NEW_PASSWORD_AGAIN": "Nové heslo znovu",
+		"CONFIRM_CHANGE_PASSWORD": "změnit heslo",
+		"EDIT_DETAILS": "změnit údaje",
+		"DELETE_ACCOUNT": "smazat účet",
+		"DELETE_ACCOUNT_CONFIRM": "Opravdu chcete smazat svůj účet?",
+		"SAVE_DETAILS": "uložit změny",
+		"CANCEL_EDIT": "zrušit editaci",
+		"CONFIRM_PASSWORD": "Zadejte heslo pro potvrzení",
+		"DELETED": "Váš účet byl úspěšně smazán",
+		"PROFILE_UPDATED": "Vaše údaje byly úspěšně aktualizovány"
+	},
+
+	"EXPORT": {
+		"SELECT_LANGUAGE": "Vyberte jazyk, který bude použit pro export",
+		"SELECT_TOPIC": "Vyberte téma",
+		"SELECT_COUNTRY": "Vyberte zemi",
+		"NO_LOCATION": "Všechny země",
+		"SELECT_TIME": "Vyberte časové období",
+		"FROM": "Od",
+		"TO": "Do",
+		"NUMBER_OF_AVAIABLE": "Počet dostupných dotazníků",
+		"EXPORT": "Exportovat do CSV",
+		"OPTIONAL": "volitelné"
+	},
+
+	"FOOTER": {
+		"INFORMATION": "informace o",
+		"PROTECTION": "ochraně osobních údajů"
+	},
+
+	"SNACKBAR": {
+		"LOGIN": "Úspěšně jste se přihlásili",
+		"LOGOUT": "Úspěšně jste se odhlásili",
+		"ACTIVATION_SENT": "Aktivační odkaz byl odeslán na váš e-mail",
+		"ACTIVATION_SUCCESS": "Váš účet byl úspěšně aktivován",
+		"REQUEST_SENT": "Odkaz pro obnovu hesla byl odeslán na váš e-mail",
+		"PASSWORD_CHANGED": "Vaše heslo bylo úspěšně změněno",
+
+		"ERROR": "Došlo k chybě",
+		"ERROR_LOGGED_IN": "Pro provedení této akce musíte být přihlášeni"
+	},
+
+	"VALIDATION": {
+		"REQUIRED": "Toto pole je povinné",
+		"EMAIL": "E-mailová adresa je neplatná",
+		"PASSWORD_MIN": "Heslo musí být dlouhé alespoň 8 znaků",
+		"PASSWORD_MAX": "Heslo nesmí být dělší než 100 znaků",
+		"CONFIRM_PASSWORD": "Hesla se neshodují",
+		"GDPR": "Musíte souhlasit se zpracováním vašich osobních údajů",
+		"AGE_MAX": "Věk nesmí být vyšší než 150 let",
+		"FIRST_NAME_MAX": "Jméno nesmí být delší než 100 znaků",
+		"LAST_NAME_MAX": "Příjmení nesmí být delší než 100 znaků",
+		"LOCATION_MAX": "Země nesmí být delší než 100 znaků",
+		"UNEMPLOYED_MAX": "Počet měsíců nesmí být vyšší než 1000",
+		"UNEMPLOYED_MIN": "Počet měsíců nesmí být záporný"
+	},
+
+	"BACKEND-RESPONSES": {
+		"Invalid credentials": "Neplatné přihlašovací údaje",
+		"Please fill all required fields": "Vyplňte všechna povinná pole",
+		"Passwords don't match": "Hesla se neshodují",
+		"Password length must be at least 8 characters": "Délka hesla musí být alespoň 8 znaků",
+		"Password must be at most 100 characters long": "Heslo nesmí být dělší než 100 znaků",
+		"Invalid e-mail": "Neplatný e-mail",
+		"This activation link doesn't exist": "Tento aktivační odkaz neexistuje",
+		"This activation link was already used": "Tento aktivační odkaz již byl použit",
+		"This activation link already expired": "Tento aktivační odkaz již vypršel",
+		"This e-mail is already taken": "Tento e-mail je již používán",
+		"New passwords do not match": "Nová hesla se neshodují",
+		"This reset link doesn't exist": "Tento odkaz pro obnovení hesla neexistuje",
+		"This reset link was already used": "Tento odkaz pro obnovení hesla byl již použit",
+		"This reset link has already expired": "Tento odkaz pro obnovení hesla již vypršel",
+		"User not found": "Uživatel nenalezen",
+		"Old password is incorrect": "Původní heslo je nesprávné",
+		"Password is incorrect": "Heslo je nesprávné",
+		"You have already requested a registration link, wait 5 minutes before requesting another one": "Již jste požádali o odkaz pro registraci, počkejte 5 minut před dalším požadavkem",
+		"You have already requested a password reset link, wait 5 minutes before requesting another one": "Již jste požádali o odkaz pro obnovení hesla, počkejte 5 minut před dalším požadavkem",
+		"This topic does not exist": "Toto téma neexistuje",
+		"An unexpected error occurred": "Došlo k neočekávané chybě",
+		"This survey attempt is invalid": "Tento pokus o vyplnění dotazníku je neplatný",
+		"This survey attempt is not completed": "Tento pokus o vyplnění dotazníku není dokončený"
+	}
+}

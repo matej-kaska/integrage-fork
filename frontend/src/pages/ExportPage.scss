@@ -1,0 +1,125 @@
+.export-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100svh;
+  gap: 1.25rem;
+
+  h1 {
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+
+    .optional {
+      font-size: 1rem;
+      color: #838383;
+      font-style: italic;
+      text-transform: none;
+    }
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  .language-dropdown {
+    &:hover {
+      .selected-language {
+        border-color: $color-primary !important;
+      }
+    }
+
+    .selected-language {
+      border-width: 2px;
+      border-color: #9ca3af;
+    }
+    
+    .languages-list {
+      cursor: pointer;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      display: flex;
+      background-color: white;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+
+      li {
+        font-size: 1.25rem;
+
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &:last-of-type {
+          border-bottom-left-radius: 18px !important;
+          border-bottom-right-radius: 18px !important;
+        }
+      }
+    }
+  }
+
+  .loading {
+    height: auto;
+    width: 100%;
+
+    .loader {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  .country-dropdown {
+    .button {
+      height: 3rem;
+    }
+
+    input {
+      margin-top: 0.5rem;
+    }
+
+    .panel {
+      gap: 0.5rem;
+    }
+  }
+
+  input[type=date] {
+    font-weight: 600;
+    cursor: pointer;
+
+    &::-webkit-calendar-picker-indicator {
+      cursor: pointer;
+    }
+  }
+
+  .number-of-surveys {
+    font-weight: 600;
+    font-size: 1.25rem;
+
+    .no-topic {
+      font-style: italic;
+      color: #838383;
+    }
+  }
+
+  button:disabled {
+    background-color: $color-gray;
+    color: white;
+    cursor: not-allowed;
+    &:hover {
+      background-color: darken($color-gray, 10%);
+    }
+  }
+
+  .loading {
+    height: 3rem;
+
+    .loader {
+      border-color: $color-accent;
+      border-bottom-color: transparent;
+    }
+  }
+}

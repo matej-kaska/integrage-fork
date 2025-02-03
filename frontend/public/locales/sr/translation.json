@@ -1,0 +1,276 @@
+{
+    "NAVBAR": {
+        "HOME": "Početna stranica",
+        "SURVEY": "Upitnik",
+        "GUIDES": "Vodič",
+        "LOGIN": "Prijava",
+        "LOGOUT": "Odjava",
+        "DETAILS": "Moji detalji",
+        "SURVEYS": "Popunjeni upitnici"
+    },
+    "QUESTION": {
+        "BACK": "nazad",
+        "NEXT": "Sledeće",
+        "TOPIC": "Tema",
+        "SAVE_EXIT": "Sačuvaj i izađi",
+        "ANSWER-TOO-LONG": "Odgovor je predugačak",
+        "COMPLETE": "Završeno",
+        "SELECT": "Izaberite odgovor",
+        "TYPE_HERE": "Upišite ovde",
+        "NOT_COMPLETED": "Odgovorite na sva pitanja",
+        "NONE_OF_THE_ABOVE": "Nijedna od gore ponuđenih opcija"
+    },
+    "RESULTS": {
+        "SURVEY_ASSESSMENT": "Procena upitnika",
+        "DATE_OF_COMPLETION": "Datum izrade upitnika",
+        "LAST_COMPLETED": "Poslednji popunjen upitnik",
+        "NUMBER_OF_POINTS": "Broj tačnih odgovora",
+        "LEVEL": "Dostignuti nivo",
+        "RECOMMENDATION": "Preporuka",
+        "HIDE_RESULTS": "Sakriti rezultate",
+        "SHOW_RESULTS": "Pokazati rezultate"
+    },
+    "HISTORY": {
+        "COMPLETED_SURVEYS": "Popunjeni upitnici",
+        "NO_SURVEYS": "Niste popunili nijedan upitnik",
+        "LAST": "Poslednje završeno"
+    },
+    "HOMEPAGE": {
+        "INTRO": {
+            "TITLE": "Alat za samoprocenjivanje",
+            "DESCRIPTION": "Alat za samoprocenjivanje je dizajniran za starosnu kategoriju 55+. Fokusira se na tehnološke sposobnosti, veštine integracije na radnom mestu, blagostanje i zadovoljstvo poslom. Možete ga iskoristiti kako biste testirali svoje sposobnosti iz svake oblasti. Ne morate ih sve popuniti. Možete odabrati šta vam je važno i šta vas intresuje.",
+            "TAKE_SURVEY": "Pokrenite upitnik"
+        },
+        "ABOUT": {
+            "TITLE": "O nama",
+            "WHO_WE_ARE": {
+                "TITLE": "Ko smo mi",
+                "DESCRIPTION_1": "Ovaj alat za samoocenjivanje razvijen je u okviru projekta „Praktični pristup za podršku zdravoj adaptaciji i integraciji radnika starijih od 55 godina na tržište rada“. Konzorcijum implementatora čine predstavnici iz sledećih zemalja: Češka, Slovenija, Mađarska, Slovačka, Nemačka, Hrvatska, Srbija, Bugarska, Bosna i Hercegovina."
+            },
+            "ORGANIZATIONS": {
+                "TITLE": "Uključene organizacije"
+            },
+            "OUR_GOAL": {
+                "TITLE": "Naš cilj",
+                "DESCRIPTION_1": "Projekat ima za cilj da podrži zdravu integraciju starijih radnika (55+) na tržište rada, da kapitalizuje njihovo znanje i da im pomogne da se prilagode izazovima novih načina rada. Cilj je da se poveća njihovo učešće, izbegne prevremeno penzionisanje i produži njihov produktivan život.",
+                "DESCRIPTION_2": "Alat za samoocenjivanje može biti koristan posebno za pojedince i njihovo planiranje ličnog razvoja, ali i za kompanije (u smislu ljudskih resursa, strategija raznolikosti i inkluzije i personalizovanog razvoja) i za kreatore politike."
+            },
+            "TAKE_SURVEY": {
+                "TITLE": "Pokrenite upitnik",
+                "DESCRIPTION": "Istražite svoje prednosti i otkrijte oblasti za poboljšanje pomoću našeg alata za samoocenjivanje prilagođenog osobama starijim od 55 godina. Učestvujte sada i napravite korak ka unapređenju svoje karijere i ličnog razvoja.",
+                "REGISTER": "Registrujte se"
+            }
+        }
+    },
+    "GUIDES": {
+        "TITLE": "Vodič",
+        "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus nisi nec pharetra venenatis. Etiam vel purus arcu. Cras fringilla accumsan nunc vitae malesuada. Curabitur eu dolor a ipsum tempor molestie id non odio. Proin at commodo quam."
+    },
+    "FILL_SURVEY": {
+        "FILL_REGISTER": "Popunite uz registraciju",
+        "FILL_REGISTER_DESC": "Projekat ima za cilj da podrži zdravu integraciju starijih radnika (55+) na tržište rada, da kapitalizuje njihovo znanje i da im pomogne da se prilagode izazovima novih načina rada. Cilj je da se poveća njihovo učešće, izbegne prevremeno penzionisanje i produži njihov produktivan život.",
+        "FILL_WITHOUT_REGISTER": "Popunite bez registracije",
+        "FILL_WITHOUT_REGISTER_DESC": "Ako odlučite da se ne registrujete, i dalje možete u potpunosti da se bavite alatom za samoocenjivanje i vidite svoje rezultate po završetku. Međutim, imajte na umu da bez registracije vaši rezultati neće biti sačuvani i nećete moći da pratite svoj napredak tokom vremena."
+    },
+    "TOPIC_SELECT": {
+        "FILL_SURVEY": "Popunite upitnik",
+        "FILL_SURVEY_AGAIN": "Ponovo popunite upitnik",
+        "CONTINUE": "Nastavite",
+        "DONE": "Završeno",
+        "NOT_DONE": "NIje završeno",
+        "IN_PROGRESS": "NIje završeno",
+        "LAST_COMPLETED": "Poslednje završeno",
+        "RESULTS": "Prikaži rezultate",
+        "RETRY_INFO": "Pronađen je nekompletirani upitnik od neregistrovanog korisnika. Da bi ste započeli novi upitnik, pritisnite dugme sa leve strane.",
+        "FILL_ALL": "Molimo Vas da popunite sva 3 upitnika!"
+    },
+    "LOGIN": {
+        "TITLE": "IntergrAge prijavljivanje",
+        "NO_ACCOUNT": "Nemate nalog?",
+        "REGISTER": "Registrujte se",
+        "EMAIL": "E-mail",
+        "PASSWORD": "Lozinka",
+        "REMEMBER_ME": "Zapamti me",
+        "FORGOT_PASSWORD": "Zaboravio/la sam lozinku",
+        "LOGIN": "Prijavite se"
+    },
+    "FORGOT_PASSWORD": {
+        "TITLE": "Zaboravili ste lozinku?",
+        "DESCRIPTION": "Unesite e-mail adresu koju ste koristili kada ste se prijavili da povratite vašu lozinku. Tamo će te dobiti link za resetovanje lozinke.",
+        "EMAIL": "E-mail",
+        "SEND": "Pošalji link za resetovanje",
+        "EMAIL_SENT": "E-mail sa linkom za restartovanje je uspešno poslat!"
+    },
+    "RESET_PASSWORD": {
+        "TITLE": "Nova lozinka",
+        "PASSWORD": "Lozinka",
+        "CONFIRM_PASSWORD": "Potvrdi lozinku",
+        "CHANGE": "Promeni lozinku"
+    },
+    "REGISTER": {
+        "TITLE": "IntegrAGE registracija",
+        "HAVE_ACCOUNT": "Već imate nalog",
+        "LOGIN": "Prijavite se",
+        "FIRST_NAME": "Ime",
+        "LAST_NAME": "Prezime",
+        "EMAIL": "E-mail",
+        "COUNTRY": "Država",
+        "TYPE_RESIDENCE": "Vrsta stambene jedinice",
+        "AGE": "Godine",
+        "GENDER": "Pol",
+        "EDUCATION_LEVEL": "Nivo obrazovanja",
+        "EMPLOYED": "Ja sam zaposlen",
+        "YES": "Da ",
+        "NO": "Ne",
+        "JOB_SECTOR": "Sektor poslova",
+        "UNEMPLOYED": "Dužina nezaposlenosti (u mesecima)",
+        "PASSWORD": "Lozinka",
+        "CONFIRM_PASSWORD": "Potvrdite lozinku",
+        "GDPR_1": "Slažem se sa",
+        "GDPR_2": "Obrada ličnih podataka",
+        "REGISTER": "Registrujte se",
+        "ACTIVATION_SENT": "Link za aktivaciju je poslat na vašu e-mail adresu. Proverite i svoju spam fasciklu.",
+        "JOB_SECTORS": {
+            "JOB_SECTORS": "Sektori poslovanja",
+            "ADMINISTRATION": "Administrcija",
+            "AGRICULTURE_FOOD_INDUSTRY": "Poljoprivreda i prehrambena industrija",
+            "ARTS_CULTURE": "Umetnost",
+            "AUTOMOTIVE_INDUSTRY": "Auto-moto industrija",
+            "BANKING": "Bankarstvo",
+            "CHEMICAL_INDUSTRY": "Hemijska industrija",
+            "CONSTRUCTION_REAL_ESTATE": "Građevina i nekretnine",
+            "CUSTOMER_SUPPORT": "Korisnička podrška",
+            "ECONOMICS_FINANCE_ACCOUNTING": "Ekonomija, finansije i  računovodstvo",
+            "EDUCATION_SCIENCE_RESEARCH": "Obrazovanje, nauka i istraživanje",
+            "ELECTRICAL_ENGINEERING_ENERGY": "Elektroinžinjering i energetika",
+            "GENERAL_LABOR": "Fizički poslovi",
+            "HEALTHCARE_SOCIAL_CARE": "Zdravstvena i socijalna zaštita",
+            "HUMAN_RESOURCES": "Ljudski resursi (HR)",
+            "INFORMATION_TECHNOLOGY": "Informacione tehnologije (IT)",
+            "INSURANCE": "Osiguranje",
+            "LAW_LEGISLATION": "Zakon i zakonodavstvo",
+            "LEASING": "Iznajmljivanje",
+            "MANAGEMENT": "Menadžment",
+            "MANUFACTURING": "Proizvodnja",
+            "MARKETING_ADVERTISING_PR": "Marketing, oglašavanje i odnosi sa javnošću (PR)",
+            "MECHANICAL_ENGINEERING": "Mašinsko inžinjerstvo",
+            "MINING_METALLURGY": "Rudarsvo i metalurgija",
+            "PHARMACEUTICAL_INDUSTRY": "Farmaceutska industrija",
+            "PUBLIC_ADMINISTRATION": "Javna uprava",
+            "QUALITY_MANAGEMENT": "Upravljanje kvalitetom",
+            "SECURITY_AND_PROTECTION": "Bezbednost i zaštita",
+            "SENIOR_MANAGEMENT": "Senior menadžment",
+            "SERVICES": "Usluge",
+            "TELECOMMUNICATIONS": "Telekomunikacije",
+            "TEXTILE_LEATHER_FASHION_INDUSTRY": "Tekstil, koža i modna industrija",
+            "TOURISM_HOSPITALITY_GASTRONOMY": "Turizam, ugostiteljstvo i gastronomija",
+            "TRADE": "Razmena",
+            "TRANSLATION_INTERPRETING": "Prevod i interpretacija",
+            "TRANSPORTATION_SHIPPING_LOGISTICS": "Transport, prevoz i logistika",
+            "WATER_MANAGEMENT_FORESTRY_ENVIRONMENT": "Vodoprivreda, šumarstvo i životna sredina",
+            "WOODWORKING_INDUSTRY": "Drvna industrija "
+        },
+        "GENDERS": {
+            "GENDER": "Pol",
+            "MALE": "Muški",
+            "FEMALE": "Ženski",
+            "OTHER": "Ostalo",
+            "PREFER_NOT_TO_SAY": "Ne bi da se izrazim"
+        },
+        "RESIDENCE": {
+            "TYPE_OF_RESIDENCE": "Vrsta prebivališta",
+            "CITIZEN": "Državljanin",
+            "IMMIGRANT": "Migrant"
+        },
+        "EDUCATION": {
+            "EDUCATION_LEVEL": "Nivo obrazovanja",
+            "PRIMARY": "Osnovno obrazovanje",
+            "SECONDARY_CERTIFICATE": "Srednje stručno obrazovanje - neformalno",
+            "SECONDARY_DIPLOMA": "Srednje obrazovanje (stručno, umetničko, gimnazijsko) - formalnim putem",
+            "POST_SECONDARY": "Majstorsko/specijalističko, srednja škola",
+            "TERTIARY": "Visoki nivo obrazovanja"
+        }
+    },
+    "SETTINGS": {
+        "CANCEL": "Otkaži",
+        "DELETE": "izbriši",
+        "CHANGE_PASSWORD": "Promeni lozinku",
+        "OLD_PASSWORD": "Stara lozinka",
+        "NEW_PASSWORD": "Nova lozinka",
+        "NEW_PASSWORD_AGAIN": "Ponovo nova lozinka",
+        "CONFIRM_CHANGE_PASSWORD": "Promeni lozinku",
+        "EDIT_DETAILS": "uredi detalje",
+        "DELETE_ACCOUNT": "Izbriši nalog",
+        "DELETE_ACCOUNT_CONFIRM": "Da li zaista želite da izbrišete nalog?",
+        "SAVE_DETAILS": "Sačuvaj detalje",
+        "CANCEL_EDIT": "Otkaži promene",
+        "CONFIRM_PASSWORD": "Unesite lozinku kako biste potvrdili",
+        "DELETED": "Vaš nalog je uspešno obrisan",
+        "PROFILE_UPDATED": "Vaš profil je ažuriran"
+    },
+    "EXPORT": {
+        "SELECT_LANGUAGE": "Izaberite jezik koji se koristi za izvoz",
+        "SELECT_TOPIC": "Izaberite temu",
+        "SELECT_COUNTRY": "Izaberite zemlju",
+        "NO_LOCATION": "Sve zemlje",
+        "SELECT_TIME": "Izaberite vremenski opseg",
+        "FROM": "Od",
+        "TO": "Do",
+        "NUMBER_OF_AVAIABLE": "Broj dostupnih upitnika",
+        "EXPORT": "Izvezi u CSV",
+        "OPTIONAL": "opciono"
+    },
+    "FOOTER": {
+        "INFORMATION": "informacije o",
+        "PROTECTION": "zaštiti podataka o ličnosti"
+    },
+    "SNACKBAR": {
+        "LOGIN": "Uspešno ste prijavljeni",
+        "LOGOUT": "Uspešno ste se odjavili",
+        "ACTIVATION_SENT": "Link za aktivaciju je poslat na vašu e-mail adresu",
+        "ACTIVATION_SUCCESS": "Vaš nalog je uspešno aktiviran",
+        "REQUEST_SENT": "Link za resetovanje je poslat na vašu e-mail adresu",
+        "PASSWORD_CHANGED": "Vaša lozinka je uspešno promenjena",
+        "ERROR": "Došlo je do greške",
+        "ERROR_LOGGED_IN": "Morate biti prijavljeni da biste izvršili ovu radnju"
+    },
+    "VALIDATION": {
+        "REQUIRED": "Ovo polje je obavezno",
+        "EMAIL": "Ova email adresa nije nije validna",
+        "PASSWORD_MIN": "Lozinka mora da ima najmanje 8 karaktera",
+        "PASSWORD_MAX": "Lozinka može da ima najviše 100 znakova",
+        "CONFIRM_PASSWORD": "Lozinke se ne poklapaju",
+        "GDPR": "Morate pristati na obradu Vaših podataka",
+        "AGE_MAX": "Starost ne sme da bude veca od 150",
+        "FIRST_NAME_MAX": "Ime može da ima najviše 100 znakova",
+        "LAST_NAME_MAX": "Prezime može da ima njaviše 100 znakova",
+        "LOCATION_MAX": "Zemljan može da ima najviše 100 znakova",
+        "UNEMPLOYED_MAX": "Broj meseci ne može biti veći od 1000",
+        "UNEMPLOYED_MIN": " Broj meseci ne može biti negativan"
+    },
+    "BACKEND-RESPONSES": {
+        "Invalid credentials": "Podaci za prijavu nisu validni",
+        "Please fill all required fields": "Molimo Vas da popunite sva neophodna polja",
+        "Passwords don't match": "Lozinke se ne poklapaju",
+        "Password length must be at least 8 characters": "Lozinka mora da ima najmanje 8 karaktera",
+        "Password must be at most 100 characters long": "Lozinka može da ima najviše 100 znakova",
+        "Invalid e-mail": "Email nije validan",
+        "This activation link doesn't exist": "Ovaj link za aktivaciju ne postoji",
+        "This activation link was already used": "Ovaj link za aktivaciju je već korišćen",
+        "This activation link already expired": "Link za aktivaciju je istekao",
+        "This e-mail is already taken": "Ova email adresa je već iskorišćena",
+        "New passwords do not match": "Nove lozinke se ne poklapaju",
+        "This reset link doesn't exist": "Ovaj link za resetovanje ne postoji",
+        "This reset link was already used": "Ovaj link za resetovanje je već iskorišćen",
+        "This reset link has already expired": "Ovaj link za resetovanje je istekao",
+        "User not found": "Korisnik nije pronađen",
+        "Old password is incorrect": "Stara lozinka je netačna",
+        "Password is incorrect": "Lozinka je netačna",
+        "You have already requested a registration link, wait 5 minutes before requesting another one": "Već ste zatražili link za registraciju, sačekajte 5 minuta pre nego što zatražite novi",
+        "You have already requested a password reset link, wait 5 minutes before requesting another one": "Već ste zatražili link za registraciju lozinke, sačekajte 5 minuta pre nego što zatražite novi",
+        "This topic does not exist": "Ova tema ne postoji",
+        "An unexpected error occurred": "Došlo je do neočekivane greške",
+        "This survey attempt is invalid": "Ovaj pokušaj upitnika je nevažeći",
+        "This survey attempt is not completed": "Ovaj pokušaj upitnika nije završen"
+    }
+}

@@ -1,0 +1,276 @@
+{
+	"NAVBAR": {
+		"HOME": "Home",
+		"SURVEY": "Questionnaire",
+		"GUIDES": "Guides",
+		"LOGIN": "Sign in",
+		"LOGOUT": "Logout",
+		"DETAILS": "My details",
+		"SURVEYS": "Completed questionnaires"
+	},
+	"QUESTION": {
+		"BACK": "Back",
+		"NEXT": "Next",
+		"TOPIC": "Topic",
+		"SAVE_EXIT": "Save & exit",
+		"ANSWER-TOO-LONG": "Answer is too long",
+		"COMPLETE": "Complete",
+		"SELECT": "select answer",
+		"TYPE_HERE": "start typing here...",
+		"NOT_COMPLETED": "Answer all questions",
+		"NONE_OF_THE_ABOVE": "None of the above options"
+	},
+	"RESULTS": {
+		"SURVEY_ASSESSMENT": "questionnaire assessment",
+		"DATE_OF_COMPLETION": "date of questionnaire",
+		"LAST_COMPLETED": "last completed questionnaire",
+		"NUMBER_OF_POINTS": "number of points",
+		"LEVEL": "achieved level",
+		"RECOMMENDATION": "recommendation",
+		"HIDE_RESULTS": "hide results",
+		"SHOW_RESULTS": "show results"
+	},
+	"HISTORY": {
+		"COMPLETED_SURVEYS": "Completed questionnaires",
+		"NO_SURVEYS": "You haven't filled in any questionnaires yet",
+		"LAST": "Last completed"
+	},
+	"HOMEPAGE": {
+		"INTRO": {
+			"TITLE": "The Self-assessment tool",
+			"DESCRIPTION": "The tool is mostly tailor made for 55+ employees. It focuses on three areas technological proficiency, workplace integration skills, and well-being and job satisfaction. You can test it and find out your strong skills in each area. Each part is evaluated separately. You do not have to complete them all. You can choose what interests you or what is important to you.",
+			"TAKE_SURVEY": "Take questionnaire"
+		},
+		"ABOUT": {
+			"TITLE": "About us",
+			"WHO_WE_ARE": {
+				"TITLE": "Who we are",
+				"DESCRIPTION_1": "This self-assessment tool has been developed as part of the project \"A practical approach to support the healthy adaptation and integration of workers aged 55+ into the labour market\". The consortium of implementers includes representatives from the following countries Czech Republic, Slovenia, Hungary, Slovakia, Germany, Croatia, Serbia, Bulgaria, Bosnia and Herzegovina."
+			},
+			"ORGANIZATIONS": {
+				"TITLE": "Organizations involved"
+			},
+			"OUR_GOAL": {
+				"TITLE": "Our goal",
+				"DESCRIPTION_1": "The project aims to support the healthy integration of older workers (55+) into the labour market, to capitalise on their knowledge and to help them adapt to the challenges of new ways of working. The aim is to increase their participation, avoid early retirement and prolong their productive life.",
+				"DESCRIPTION_2": "The Self-assessment tool can be useful especially for individuals and their personal development planning, but also for companies (in terms of HR, diversity and inclusion strategies, and personalized development) and for policy makers."
+			},
+			"TAKE_SURVEY": {
+				"TITLE": "Take the questionnaire",
+				"DESCRIPTION": "Explore your strengths and discover areas for improvement with our self-assessment tool tailored for those aged 55+. Participate now and take a step towards enhancing your career and personal development.",
+				"REGISTER": "Sign up"
+			}
+		}
+	},
+	"GUIDES": {
+		"TITLE": "Guides",
+		"DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus nisi nec pharetra venenatis. Etiam vel purus arcu. Cras fringilla accumsan nunc vitae malesuada. Curabitur eu dolor a ipsum tempor molestie id non odio. Proin at commodo quam."
+	},
+	"FILL_SURVEY": {
+		"FILL_REGISTER": "Fill with registration",
+		"FILL_REGISTER_DESC": "By registering, you gain full access to all the features of our self-assessment tool. Your results will be securely stored, allowing you to track your progress over time and compare your scores across different areas. Additionally, registration gives you the flexibility to save any incomplete questionnaires, so you can return to them later at your convenience.",
+		"FILL_WITHOUT_REGISTER": "Fill without registration",
+		"FILL_WITHOUT_REGISTER_DESC": "If you choose not to register, you can still fully engage with the self-assessment tool and view your results upon completion. However, please note that without registration, your results will not be saved, and you won’t be able to track your progress over time."
+	},
+	"TOPIC_SELECT": {
+		"FILL_SURVEY": "Fill questionnaire",
+		"FILL_SURVEY_AGAIN": "Fill questionnaire again",
+		"CONTINUE": "Continue",
+		"DONE": "Completed",
+		"NOT_DONE": "Not completed",
+		"IN_PROGRESS": "In progress",
+		"LAST_COMPLETED": "Last completed",
+		"RESULTS": "Show results",
+		"RETRY_INFO": "An incomplete questionnaire was found from an unlogged user. To start a new questionnaire, press the button on the left.",
+		"FILL_ALL": "Please fill out all 3 questionnaires!"
+	},
+	"LOGIN": {
+		"TITLE": "IntegrAGE login",
+		"NO_ACCOUNT": "Don't have an account?",
+		"REGISTER": "Sign up",
+		"EMAIL": "E-mail",
+		"PASSWORD": "Password",
+		"REMEMBER_ME": "remember me",
+		"FORGOT_PASSWORD": "forgot password",
+		"LOGIN": "Sign in"
+	},
+	"FORGOT_PASSWORD": {
+		"TITLE": "Forgot your password?",
+		"DESCRIPTION": "Enter the e-mail that you used when you signed up to recover your password. You will receive a password reset link.",
+		"EMAIL": "E-mail",
+		"SEND": "Send reset link",
+		"EMAIL_SENT": "Email with reset link sent successfuly!"
+	},
+	"RESET_PASSWORD": {
+		"TITLE": "New password",
+		"PASSWORD": "Password",
+		"CONFIRM_PASSWORD": "Confirm password",
+		"CHANGE": "Change password"
+	},
+	"REGISTER": {
+		"TITLE": "IntegrAGE registration",
+		"HAVE_ACCOUNT": "Already have an account?",
+		"LOGIN": "Sign in",
+		"FIRST_NAME": "First name",
+		"LAST_NAME": "Last name",
+		"EMAIL": "E-mail",
+		"COUNTRY": "Country",
+		"TYPE_RESIDENCE": "Type of residence",
+		"AGE": "Age",
+		"GENDER": "Gender",
+		"EDUCATION_LEVEL": "Education level",
+		"EMPLOYED": "I am employed",
+		"YES": "yes",
+		"NO": "no",
+		"JOB_SECTOR": "Job sector",
+		"UNEMPLOYED": "Length of unemployment (in months)",
+		"PASSWORD": "Password",
+		"CONFIRM_PASSWORD": "Confirm password",
+		"GDPR_1": "I agree to the",
+		"GDPR_2": "processing of my personal data",
+		"REGISTER": "Sign up",
+		"ACTIVATION_SENT": "Activation link has been sent to your e-mail address. Please check your spam folder as well.",
+		"JOB_SECTORS": {
+			"JOB_SECTORS": "Job Sectors",
+			"ADMINISTRATION": "Administration",
+			"AGRICULTURE_FOOD_INDUSTRY": "Agriculture & Food Industry",
+			"ARTS_CULTURE": "Arts & Culture",
+			"AUTOMOTIVE_INDUSTRY": "Automotive Industry",
+			"BANKING": "Banking",
+			"CHEMICAL_INDUSTRY": "Chemical Industry",
+			"CONSTRUCTION_REAL_ESTATE": "Construction & Real Estate",
+			"CUSTOMER_SUPPORT": "Customer Support",
+			"ECONOMICS_FINANCE_ACCOUNTING": "Economics, Finance & Accounting",
+			"EDUCATION_SCIENCE_RESEARCH": "Education, Science & Research",
+			"ELECTRICAL_ENGINEERING_ENERGY": "Electrical Engineering & Energy",
+			"GENERAL_LABOR": "General Labor",
+			"HEALTHCARE_SOCIAL_CARE": "Healthcare & Social Care",
+			"HUMAN_RESOURCES": "Human Resources",
+			"INFORMATION_TECHNOLOGY": "Information Technology",
+			"INSURANCE": "Insurance",
+			"LAW_LEGISLATION": "Law & Legislation",
+			"LEASING": "Leasing",
+			"MANAGEMENT": "Management",
+			"MANUFACTURING": "Manufacturing",
+			"MARKETING_ADVERTISING_PR": "Marketing, Advertising & PR",
+			"MECHANICAL_ENGINEERING": "Mechanical Engineering",
+			"MINING_METALLURGY": "Mining & Metallurgy",
+			"PHARMACEUTICAL_INDUSTRY": "Pharmaceutical Industry",
+			"PUBLIC_ADMINISTRATION": "Public Administration",
+			"QUALITY_MANAGEMENT": "Quality Management",
+			"SECURITY_AND_PROTECTION": "Security and Protection",
+			"SENIOR_MANAGEMENT": "Senior Management",
+			"SERVICES": "Services",
+			"TELECOMMUNICATIONS": "Telecommunications",
+			"TEXTILE_LEATHER_FASHION_INDUSTRY": "Textile, Leather & Fashion Industry",
+			"TOURISM_HOSPITALITY_GASTRONOMY": "Tourism, Hospitality & Gastronomy",
+			"TRADE": "Trade",
+			"TRANSLATION_INTERPRETING": "Translation & Interpreting",
+			"TRANSPORTATION_SHIPPING_LOGISTICS": "Transportation, Shipping & Logistics",
+			"WATER_MANAGEMENT_FORESTRY_ENVIRONMENT": "Water Management, Forestry & Environment",
+			"WOODWORKING_INDUSTRY": "Woodworking Industry"
+		},
+		"GENDERS": {
+			"GENDER": "Gender",
+			"MALE": "Male",
+			"FEMALE": "Female",
+			"OTHER": "Other",
+			"PREFER_NOT_TO_SAY": "Prefer not to say"
+		},
+		"RESIDENCE": {
+			"TYPE_OF_RESIDENCE": "Type of residence",
+			"CITIZEN": "Citizen",
+			"IMMIGRANT": "Immigrant"
+		},
+		"EDUCATION": {
+			"EDUCATION_LEVEL": "Education Level",
+			"PRIMARY": "Primary Education",
+			"SECONDARY_CERTIFICATE": "Secondary Education with Vocational Certificate",
+			"SECONDARY_DIPLOMA": "Secondary Education with Diploma",
+			"POST_SECONDARY": "Post-secondary Vocational Education",
+			"TERTIARY": "Tertiary Education"
+		}
+	},
+	"SETTINGS": {
+		"CANCEL": "Cancel",
+		"DELETE": "Delete",
+		"CHANGE_PASSWORD": "Change password",
+		"OLD_PASSWORD": "Old password",
+		"NEW_PASSWORD": "New password",
+		"NEW_PASSWORD_AGAIN": "New password again",
+		"CONFIRM_CHANGE_PASSWORD": "Change password",
+		"EDIT_DETAILS": "edit details",
+		"DELETE_ACCOUNT": "delete account",
+		"DELETE_ACCOUNT_CONFIRM": "Do you really want to delete your account?",
+		"SAVE_DETAILS": "save details",
+		"CANCEL_EDIT": "cancel edit",
+		"CONFIRM_PASSWORD": "Enter password to confirm",
+		"DELETED": "Your account has been successfuly deleted",
+		"PROFILE_UPDATED": "Your profile has been updated"
+	},
+	"EXPORT": {
+		"SELECT_LANGUAGE": "Select language used in export",
+		"SELECT_TOPIC": "Select topic",
+		"SELECT_COUNTRY": "Select country",
+		"NO_LOCATION": "All countries",
+		"SELECT_TIME": "Select time range",
+		"FROM": "From",
+		"TO": "To",
+		"NUMBER_OF_AVAIABLE": "Number of available questionnaires",
+		"EXPORT": "Export to CSV",
+		"OPTIONAL": "optional"
+	},
+	"FOOTER": {
+		"INFORMATION": "information about",
+		"PROTECTION": "data protection"
+	},
+	"SNACKBAR": {
+		"LOGIN": "You have been successfuly logged in",
+		"LOGOUT": "You have been successfuly logged out",
+		"ACTIVATION_SENT": "Activation link has been sent to your e-mail address",
+		"ACTIVATION_SUCCESS": "Your account has been successfuly activated",
+		"REQUEST_SENT": "Password reset link has been sent to your e-mail address",
+		"PASSWORD_CHANGED": "Your password has been successfuly changed",
+		"ERROR": "An error has occured",
+		"ERROR_LOGGED_IN": "You must be logged in to perform this action"
+	},
+	"VALIDATION": {
+		"REQUIRED": "This field is required",
+		"EMAIL": "E-mail address is invalid",
+		"PASSWORD_MIN": "Password must be at least 8 characters long",
+		"PASSWORD_MAX": "Password must be at most 100 characters long",
+		"CONFIRM_PASSWORD": "Passwords do not match",
+		"GDPR": "You must agree to the processing of your personal data",
+		"AGE_MAX": "Age must not be more than 150",
+		"FIRST_NAME_MAX": "First name must be at most 100 characters long",
+		"LAST_NAME_MAX": "Last name must be at most 100 characters long",
+		"LOCATION_MAX": "Country must be at most 100 characters long",
+		"UNEMPLOYED_MAX": "The number of months must not be more than 1000",
+		"UNEMPLOYED_MIN": "The number of months must not be negative"
+	},
+	"BACKEND-RESPONSES": {
+		"Invalid credentials": "Invalid login credentials",
+		"Please fill all required fields": "Please fill all required fields",
+		"Passwords don't match": "Passwords don't match",
+		"Password length must be at least 8 characters": "Password length must be at least 8 characters",
+		"Password must be at most 100 characters long": "Password must be at most 100 characters long",
+		"Invalid e-mail": "Invalid e-mail",
+		"This activation link doesn't exist": "This activation link doesn't exist",
+		"This activation link was already used": "This activation link was already used",
+		"This activation link already expired": "This activation link already expired",
+		"This e-mail is already taken": "This email is already taken",
+		"New passwords do not match": "New passwords do not match",
+		"This reset link doesn't exist": "This reset link doesn't exist",
+		"This reset link was already used": "This reset link was already used",
+		"This reset link has already expired": "This reset link has already expired",
+		"User not found": "User not found",
+		"Old password is incorrect": "Old password is incorrect",
+		"Password is incorrect": "Password is incorrect",
+		"You have already requested a registration link, wait 5 minutes before requesting another one": "You have already requested a registration link, wait 5 minutes before requesting another one",
+		"You have already requested a password reset link, wait 5 minutes before requesting another one": "You have already requested a password reset link, wait 5 minutes before requesting another one",
+		"This topic does not exist": "This topic does not exist",
+		"An unexpected error occurred": "An unexpected error occurred",
+		"This survey attempt is invalid": "This questionnaire attempt is invalid",
+		"This survey attempt is not completed": "This questionnaire attempt is not completed"
+	}
+}

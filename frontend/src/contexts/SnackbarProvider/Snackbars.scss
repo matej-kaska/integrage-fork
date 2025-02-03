@@ -1,0 +1,70 @@
+.error-snackbar {
+  div {
+    background-color: #f8dedd;
+    border-color: $color-accent;
+  }
+}
+
+.success-snackbar {
+  div {
+    background-color: #e1efc5;
+    border-color: #9aca3c;
+  }
+}
+
+.info-snackbar {
+  div {
+    background-color: #d4dbf3;
+    border-color: $color-primary;
+  }
+}
+
+.error-snackbar, .success-snackbar, .info-snackbar {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  left: 50%;
+  transform: translateX(-50%);
+
+  div {
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    svg {
+      margin-right: 1rem;
+    }
+    
+    p {
+      user-select: none;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s;
+}
+
+.fade-out {
+  animation: fadeOut 0.4s;
+}

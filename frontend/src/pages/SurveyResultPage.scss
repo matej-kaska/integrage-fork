@@ -1,0 +1,220 @@
+.survey-result-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100svh;
+  padding-inline: 2rem;
+
+  .header {
+    text-transform: unset;
+    margin-top: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .date {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -2rem;
+    position: relative;
+    width: 100%;
+
+    &:first-of-type {
+      margin-bottom: 0rem;
+    }
+  }
+
+  .half {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 3rem);
+    max-width: calc(50% - 3rem);
+
+    .last-done-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 1.25rem;
+      border: 2px solid rgba(#252525, 0.25);
+      padding: 2rem;
+
+      h4, span {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+      }
+
+      button {
+        margin-top: 1rem;
+        background-color: rgba(#252525, 0.25);
+        
+        &:hover {
+          background-color: rgba(#252525, 0.5);
+        }
+      }
+      
+    }
+
+    .overview {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 1.25rem;
+      width: 100%;
+
+      h3 {
+        width: 100%;
+        text-align: center;
+        border-radius: 1rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        font-size: 1.5rem;
+        padding-inline: 0.75rem;
+        padding-block: 0.25rem;
+        color: white;
+        text-transform: none;
+      }
+
+      .overview-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #eceffa;
+        gap: 0.25rem;
+        padding-block: 1rem;
+        padding-inline: 1.25rem;
+        border-radius: 1rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        font-size: 1.25rem;
+        width: 100%;
+
+        .last-result {
+          color: rgba(#252525, 0.70);
+          font-style: italic;
+        }
+
+        .description {
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  .filler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 600;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-inline: 2rem;
+    margin-bottom: auto;
+
+    &.level0 {
+      margin-bottom: unset;
+    }
+    
+    &.no-line:after {
+      display: none;
+    }
+
+    &.level0::after {
+      border-image: linear-gradient($level-0, $level-1) 10%;
+    }
+
+    &.level1::after {
+      border-image: linear-gradient($level-1, $level-2) 10%;
+    }
+
+    &.level2::after {
+      border-image: linear-gradient($level-2, $level-3) 10%;
+    }
+
+    &.level3::after {
+      border-image: linear-gradient($level-3, $level-4) 10%;
+    }
+
+    &.level4::after {
+      border-image: linear-gradient($level-4, $level-5) 10%;
+    }
+
+    &.level5::after {
+      border-image: linear-gradient($level-5, $level-6) 10%;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: calc(100% - (2*2.5rem) + 0.5rem);
+      width: 1px;
+      border-width: 1px;
+      border-style: solid;
+      z-index: -1;
+      top: 2.5rem;
+    }
+  }
+
+  .level0 {
+    background-color: $level-0;
+    width: 1.75rem;
+    height: 1.75rem;
+    min-width: 1.75rem;
+    min-height: 1.75rem;
+
+    &::after {
+      height: calc(50% - 0.75rem);
+      bottom: 0;
+      top: unset;
+    }
+  }
+
+  .level1 {
+    background-color: $level-1;
+  }
+
+  .level2 {
+    background-color: $level-2;
+  }
+
+  .level3 {
+    background-color: $level-3;
+  }
+
+  .level4 {
+    background-color: $level-4;
+  }
+
+  .level5 {
+    background-color: $level-5;
+  }
+
+  .level6 {
+    background-color: $level-6;
+  }
+}

@@ -1,0 +1,275 @@
+{
+    "NAVBAR": {
+        "HOME": "Domov",
+        "SURVEY": "Vprašalnik",
+        "GUIDES": "Vodiči",
+        "LOGIN": "Prijavite se",
+        "LOGOUT": "Odjava",
+        "DETAILS": "Moji podatki",
+        "SURVEYS": "Izpolnjeni vprašalniki"
+    },
+    "QUESTION": {
+        "BACK": "Nazaj",
+        "NEXT": "Naslednji",
+        "TOPIC": "Tematika",
+        "SAVE_EXIT": "Shrani in izstopi",
+        "ANSWER-TOO-LONG": "Odgovor je predolg",
+        "COMPLETE": "Zaključeno",
+        "SELECT": "izberite odgovor",
+        "TYPE_HERE": "začnite tipkati tukaj...",
+        "NOT_COMPLETED": "Odgovorite na vsa vprašanja",
+        "NONE_OF_THE_ABOVE": "Nobena od zgoraj navedenih možnosti"
+    },
+    "RESULTS": {
+        "SURVEY_ASSESSMENT": "ocena vprašalnika",
+        "DATE_OF_COMPLETION": "datum vprašalnika",
+        "LAST_COMPLETED": "zadnji izpolnjeni vprašalnik",
+        "NUMBER_OF_POINTS": "število pravilnih odgovorov",
+        "LEVEL": "dosežen nivo",
+        "RECOMMENDATION": "priporočilo",
+        "HIDE_RESULTS": "skrij rezultate",
+        "SHOW_RESULTS": "prikaži rezultate"
+    },
+    "HISTORY": {
+        "COMPLETED_SURVEYS": "Izpolnjeni vprašalniki",
+        "NO_SURVEYS": "Še niste izpolnili nobenega vprašalnika",
+        "LAST": "Zadnji zaključeni"
+    },
+    "HOMEPAGE": {
+        "INTRO": {
+            "TITLE": "Orodje za samoocenjevanje",
+            "DESCRIPTION": "Orodje je večinoma prilagojeno za zaposlene, starejše od 55 let. Osredotoča se na tri področja: tehnološko znanje, spretnosti vključevanja na delovnem mestu ter dobro počutje in zadovoljstvo pri delu. Lahko ga preizkusite in ugotovite, katere vaše spretnosti izstopajo na posameznem področju. Vsak del se ocenjuje ločeno. Ni vam treba izpolniti vseh. Izberete lahko tisto, kar vas zanima ali kar je za vas pomembno.",
+            "TAKE_SURVEY": "Izpolnite vprašalnik"
+        },
+        "ABOUT": {
+            "TITLE": "O nas",
+            "WHO_WE_ARE": {
+                "TITLE": "Kdo smo",
+                "DESCRIPTION_1": "To orodje za samoocenjevanje je bilo razvito v okviru projekta IntegrAGE \"Praktični pristopi za podporo zdravemu prilagajanju in vključevanju delavcev, starejših od 55 let, na trg dela\". Konzorcij izvajalcev vključuje predstavnike naslednjih držav: Češka, Slovenija, Madžarska, Slovaška, Nemčija, Hrvaška, Srbija, Bolgarija, Bosna in Hercegovina."
+            },
+            "ORGANIZATIONS": {
+                "TITLE": "Vključene organizacije"
+            },
+            "OUR_GOAL": {
+                "TITLE": "Naš cilj",
+                "DESCRIPTION_1": "Cilj projekta je podpreti zdravo vključevanje starejših delavcev (55+) na trg dela, izkoristiti njihovo znanje in jim pomagati pri prilagajanju na izzive novih načinov dela. Cilj je povečati njihovo udeležbo, preprečiti predčasno upokojitev in podaljšati njihovo produktivno življenje.",
+                "DESCRIPTION_2": "Orodje za samoocenjevanje je lahko koristno predvsem za posameznike in njihovo načrtovanje osebnega razvoja, pa tudi za podjetja (v smislu kadrovskih strategij, strategij raznolikosti in vključevanja ter osebnega razvoja) in oblikovalce politik."
+            },
+            "TAKE_SURVEY": {
+                "TITLE": "Izpolnite vprašalnik",
+                "DESCRIPTION": "Z našim orodjem za samoocenjevanje, ki je prilagojeno starejšim od 55 let, lahko raziščete svoje prednosti in odkrijte področja, ki jih lahko izboljšate. Sodelujte zdaj in naredite korak k izboljšanju svoje kariere in osebnega razvoja.",
+                "REGISTER": "Prijavite se"
+            }
+        }
+    },
+    "GUIDES": {
+        "TITLE": "Vodiči",
+        "DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus nisi nec pharetra venenatis. Etiam vel purus arcu. Cras fringilla accumsan nunc vitae malesuada. Curabitur eu dolor a ipsum tempor molestie id non odio. Proin at commodo quam."
+    },
+    "FILL_SURVEY": {
+        "FILL_REGISTER": "Izpolnite z registracijo",
+        "FILL_REGISTER_DESC": "Z registracijo pridobite popoln dostop do vseh funkcij našega orodja za samoocenjevanje. Vaši rezultati bodo varno shranjeni, tako da boste lahko spremljali svoj napredek skozi čas in primerjali rezultate na različnih področjih. Poleg tega vam registracija omogoča, da shranite morebitne delno izpolnjene vprašalnike, tako da se lahko k njim vrnete pozneje, ko vam bo to ustrezalo.",
+        "FILL_WITHOUT_REGISTER": "Izpolnite brez registracije",
+        "FILL_WITHOUT_REGISTER_DESC": "Četudi se ne registrirate, lahko še vedno v celoti uporabljate orodje za samoocenjevanje in si po zaključku ogledate svoje rezultate. Vendar upoštevajte, da brez registracije vaši rezultati ne bodo shranjeni in ne boste mogli spremljati svojega napredka skozi čas."
+    },
+    "TOPIC_SELECT": {
+        "FILL_SURVEY": "Izpolnite vprašalnik",
+        "FILL_SURVEY_AGAIN": "Ponovno izpolnite vprašalnik",
+        "CONTINUE": "Nadaljujte",
+        "DONE": "Zaključeno",
+        "NOT_DONE": "Ni zaključeno",
+        "IN_PROGRESS": "V teku",
+        "LAST_COMPLETED": "Zadnji zaključeni",
+        "RESULTS": "Prikaži rezultate",
+        "RETRY_INFO": "Najden je bil delno izpolnjen vprašalnik neprijavljenega uporabnika. Če želite začeti nov vprašalnik, pritisnite gumb na levi strani."
+    },
+    "LOGIN": {
+        "TITLE": "IntegrAGE prijava",
+        "NO_ACCOUNT": "Nimate računa?",
+        "REGISTER": "Prijavite se",
+        "EMAIL": "E-naslov",
+        "PASSWORD": "Geslo",
+        "REMEMBER_ME": "zapomni si me",
+        "FORGOT_PASSWORD": "pozabljeno geslo",
+        "LOGIN": "Prijavite se"
+    },
+    "FORGOT_PASSWORD": {
+        "TITLE": "Ste pozabili geslo?",
+        "DESCRIPTION": "Vnesite e-poštni naslov, ki ste ga uporabili ob prijavi za obnovitev gesla. Prejeli boste povezavo za ponastavitev gesla.",
+        "EMAIL": "E-naslov",
+        "SEND": "Pošlji povezavo za ponastavitev",
+        "EMAIL_SENT": "E-poštno sporočilo s povezavo za ponastavitev je bilo uspešno poslano!"
+    },
+    "RESET_PASSWORD": {
+        "TITLE": "Novo geslo",
+        "PASSWORD": "Geslo",
+        "CONFIRM_PASSWORD": "Potrditev gesla",
+        "CHANGE": "Sprememba gesla"
+    },
+    "REGISTER": {
+        "TITLE": "IntegrAGE registracija",
+        "HAVE_ACCOUNT": "Že imate račun?",
+        "LOGIN": "Prijavite se",
+        "FIRST_NAME": "Ime",
+        "LAST_NAME": "Priimek",
+        "EMAIL": "E-naslov",
+        "COUNTRY": "Država",
+        "TYPE_RESIDENCE": "Označite ustrezno polje",
+        "AGE": "Starost",
+        "GENDER": "Spol",
+        "EDUCATION_LEVEL": "Stopnja izobrazbe",
+        "EMPLOYED": "Sem zaposlen/a",
+        "YES": "da",
+        "NO": "ne",
+        "JOB_SECTOR": "Delovni sektor",
+        "UNEMPLOYED": "Trajanje brezposelnosti (v mesecih)",
+        "PASSWORD": "Geslo",
+        "CONFIRM_PASSWORD": "Potrditev gesla",
+        "GDPR_1": "Strinjam se z",
+        "GDPR_2": "obdelavo mojih osebnih podatkov",
+        "REGISTER": "Prijavite se",
+        "ACTIVATION_SENT": "Povezava za aktivacijo je bila poslana na vaš e-poštni naslov",
+        "JOB_SECTORS": {
+            "JOB_SECTORS": "Delovni sektorji",
+            "ADMINISTRATION": "Uprava",
+            "AGRICULTURE_FOOD_INDUSTRY": "Kmetijstvo in živilska industrija",
+            "ARTS_CULTURE": "Umetnost in kultura",
+            "AUTOMOTIVE_INDUSTRY": "Avtomobilska industrija",
+            "BANKING": "Bančništvo",
+            "CHEMICAL_INDUSTRY": "Kemična industrija",
+            "CONSTRUCTION_REAL_ESTATE": "Gradbeništvo in nepremičnine",
+            "CUSTOMER_SUPPORT": "Podpora strankam",
+            "ECONOMICS_FINANCE_ACCOUNTING": "Ekonomija, finance in računovodstvo",
+            "EDUCATION_SCIENCE_RESEARCH": "Izobraževanje, znanost in raziskave",
+            "ELECTRICAL_ENGINEERING_ENERGY": "Elektrotehnika in energetika",
+            "GENERAL_LABOR": "Splošno delo",
+            "HEALTHCARE_SOCIAL_CARE": "Zdravstveno in socialno varstvo",
+            "HUMAN_RESOURCES": "Človeški viri",
+            "INFORMATION_TECHNOLOGY": "Informacijska tehnologija",
+            "INSURANCE": "Zavarovalništvo",
+            "LAW_LEGISLATION": "Pravo in zakonodaja",
+            "LEASING": "Leasing",
+            "MANAGEMENT": "Upravljanje",
+            "MANUFACTURING": "Proizvodnja",
+            "MARKETING_ADVERTISING_PR": "Trženje, oglaševanje in odnosi z javnostmi",
+            "MECHANICAL_ENGINEERING": "Strojništvo",
+            "MINING_METALLURGY": "Rudarstvo in metalurgija",
+            "PHARMACEUTICAL_INDUSTRY": "Farmacevtska industrija",
+            "PUBLIC_ADMINISTRATION": "Javna uprava",
+            "QUALITY_MANAGEMENT": "Upravljanje kakovosti",
+            "SECURITY_AND_PROTECTION": "Varnost in zaščita",
+            "SENIOR_MANAGEMENT": "Višje vodstvo",
+            "SERVICES": "Storitve",
+            "TELECOMMUNICATIONS": "Telekomunikacije",
+            "TEXTILE_LEATHER_FASHION_INDUSTRY": "Tekstilna, usnjarska in modna industrija",
+            "TOURISM_HOSPITALITY_GASTRONOMY": "Turizem, gostinstvo in gastronomija",
+            "TRADE": "Trgovina",
+            "TRANSLATION_INTERPRETING": "Prevajanje in tolmačenje",
+            "TRANSPORTATION_SHIPPING_LOGISTICS": "Transport, ladijski promet in logistika",
+            "WATER_MANAGEMENT_FORESTRY_ENVIRONMENT": "Upravljanje voda, gozdarstvo in okolje",
+            "WOODWORKING_INDUSTRY": "Lesnopredelovalna industrija"
+        },
+        "GENDERS": {
+            "GENDER": "Spol",
+            "MALE": "Moški",
+            "FEMALE": "Ženska",
+            "OTHER": "Drugo",
+            "PREFER_NOT_TO_SAY": "Raje ne povem"
+        },
+        "RESIDENCE": {
+            "TYPE_OF_RESIDENCE": "Označite ustrezno polje",
+            "CITIZEN": "Državljan",
+            "IMMIGRANT": "Priseljenec"
+        },
+        "EDUCATION": {
+            "EDUCATION_LEVEL": "Stopnja izobrazbe",
+            "PRIMARY": "Osnovnošolsko izobraževanje",
+            "SECONDARY_CERTIFICATE": "Nižje poklicno izobraževanje (2 letno)",
+            "SECONDARY_DIPLOMA": "Srednje poklicno izobraževanje (3 letno)",
+            "POST_SECONDARY": "Gimnazijsko, srednje poklicno-tehniško izobraževanje",
+            "TERTIARY": "Terciarno izobraževanje"
+        }
+    },
+    "SETTINGS": {
+        "CANCEL": "Prekliči",
+        "DELETE": "Izbriši",
+        "CHANGE_PASSWORD": "Sprememba gesla",
+        "OLD_PASSWORD": "Staro geslo",
+        "NEW_PASSWORD": "Novo geslo",
+        "NEW_PASSWORD_AGAIN": "Ponovno novo geslo",
+        "CONFIRM_CHANGE_PASSWORD": "Sprememba gesla",
+        "EDIT_DETAILS": "urejanje podrobnosti",
+        "DELETE_ACCOUNT": "izbrisati račun",
+        "DELETE_ACCOUNT_CONFIRM": "Ali res želite izbrisati svoj račun?",
+        "SAVE_DETAILS": "shranite podrobnosti",
+        "CANCEL_EDIT": "preklicati urejanje",
+        "CONFIRM_PASSWORD": "Za potrditev vnesite geslo",
+        "DELETED": "Vaš račun je bil uspešno izbrisan",
+        "PROFILE_UPDATED": "Vaš profil je bil posodobljen"
+    },
+    "EXPORT": {
+        "SELECT_LANGUAGE": "Izberite jezik, ki se uporablja pri izvozu",
+        "SELECT_TOPIC": "Izberite temo",
+        "SELECT_COUNTRY": "Izberite državo",
+        "NO_LOCATION": "Vse države",
+        "SELECT_TIME": "Izberite časovno območje",
+        "FROM": "Od",
+        "TO": "Do",
+        "NUMBER_OF_AVAIABLE": "Število razpoložljivih vprašalnikov",
+        "EXPORT": "Izvoz v CSV",
+        "OPTIONAL": "neobvezno"
+    },
+	"FOOTER": {
+		"INFORMATION": "informacije o",
+		"PROTECTION": "varstvu podatkov"
+	},
+    "SNACKBAR": {
+        "LOGIN": "Uspešno ste se prijavili",
+        "LOGOUT": "Uspešno ste se odjavili",
+        "ACTIVATION_SENT": "Povezava za aktivacijo je bila poslana na vaš e-poštni naslov",
+        "ACTIVATION_SUCCESS": "Vaš račun je bil uspešno aktiviran",
+        "REQUEST_SENT": "Povezava za ponastavitev gesla je bila poslana na vaš e-poštni naslov",
+        "PASSWORD_CHANGED": "Vaše geslo je bilo uspešno spremenjeno",
+        "ERROR": "Pojavila se je napaka",
+        "ERROR_LOGGED_IN": "Za izvedbo tega dejanja morate biti prijavljeni"
+    },
+    "VALIDATION": {
+        "REQUIRED": "To polje je obvezno",
+        "EMAIL": "E-poštni naslov je neveljaven",
+        "PASSWORD_MIN": "Geslo mora biti dolgo vsaj 8 znakov.",
+        "PASSWORD_MAX": "Geslo mora biti dolgo največ 100 znakov.",
+        "CONFIRM_PASSWORD": "Gesli se ne ujemata",
+        "GDPR": "Strinjati se morate z obdelavo vaših osebnih podatkov.",
+        "AGE_MAX": "Starost ne sme presegati 150 let.",
+        "FIRST_NAME_MAX": "Ime mora biti dolgo največ 100 znakov.",
+        "LAST_NAME_MAX": "Priimek mora biti dolg največ 100 znakov.",
+        "LOCATION_MAX": "Država mora biti dolga največ 100 znakov.",
+        "UNEMPLOYED_MAX": "Število mesecev ne sme presegati 1000.",
+        "UNEMPLOYED_MIN": "Število mesecev ne sme biti negativno."
+    },
+    "BACKEND-RESPONSES": {
+        "Invalid credentials": "Neveljavni podatki za prijavo",
+        "Please fill all required fields": "Izpolnite vsa zahtevana polja",
+        "Passwords don't match": "Gesli se ne ujemata",
+        "Password length must be at least 8 characters": "Dolžina gesla mora biti vsaj 8 znakov.",
+        "Password must be at most 100 characters long": "Geslo mora biti dolgo največ 100 znakov.",
+        "Invalid e-mail": "Neveljavno e-poštno sporočilo",
+        "This activation link doesn't exist": "Ta povezava za aktivacijo ne obstaja",
+        "This activation link was already used": "Ta aktivacijska povezava je bila že uporabljena",
+        "This activation link already expired": "Ta aktivacijska povezava je že potekla",
+        "This e-mail is already taken": "To e-poštno sporočilo je že zasedeno",
+        "New passwords do not match": "Nova gesla se ne ujemajo",
+        "This reset link doesn't exist": "Ta ponastavitev povezave ne obstaja",
+        "This reset link was already used": "Ta povezava za ponastavitev je bila že uporabljena",
+        "This reset link has already expired": "Ta ponastavljena povezava je že potekla",
+        "User not found": "Uporabnik ni najden",
+        "Old password is incorrect": "Staro geslo je napačno",
+        "Password is incorrect": "Geslo je napačno",
+        "You have already requested a registration link, wait 5 minutes before requesting another one": "Povezavo za registracijo ste že zahtevali, počakajte 5 minut, preden zahtevate novo povezavo.",
+        "You have already requested a password reset link, wait 5 minutes before requesting another one": "Povezavo za ponastavitev gesla ste že zahtevali, počakajte 5 minut, preden zahtevate novo povezavo.",
+        "This topic does not exist": "Ta tema ne obstaja",
+        "An unexpected error occurred": "Zgodila se je nepričakovana napaka",
+        "This survey attempt is invalid": "Ta poskus izpolnjevanja vprašalnika je neveljaven",
+        "This survey attempt is not completed": "Ta poskus izpolnjevanja vprašalnika ni zaključen"
+    }
+}

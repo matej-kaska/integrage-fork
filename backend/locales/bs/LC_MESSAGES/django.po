@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bs\n"
+
+msgid "Activation link"
+msgstr "Link za aktivaciju"
+
+msgid "User"
+msgstr "Korisnik"
+
+msgid "here is your password reset link for the IntegrAGE platform, after clicking on the link you can change your password."
+msgstr "ovdje je vaša veza za poništavanje lozinke za IntegrAGE platformu, nakon što kliknete na link možete promijeniti svoju lozinku."
+
+msgid "Password reset link"
+msgstr "Link za poništavanje lozinke"
+
+msgid "If the link cannot be opened, copy the following address into your browser:"
+msgstr "Ako se link ne može otvoriti, kopirajte sljedeću adresu u svoj pretraživač:"
+
+msgid "This email was generated automatically, please do not reply to it. If you did not request this email, please ignore it."
+msgstr "Ova e-poruka je generirana automatski, nemojte odgovarati na nju. "
+
+msgid "Best regards,"
+msgstr "Srdačan pozdrav,"
+
+msgid "The IntegrAGE Team"
+msgstr "IntegrAGE tim"
+
+msgid "here is your registration link for the IntegrAGE platform, after clicking the link your account will be activated."
+msgstr "ovdje je vaš link za registraciju za IntegrAGE platformu, nakon što kliknete na link, vaš račun će biti aktiviran."
