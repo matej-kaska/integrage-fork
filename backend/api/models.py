@@ -344,13 +344,13 @@ class OCAAnswer(models.Model):
   def __str__(self):
     return f"[{self.pk}] Answer to {self.question} by {self.survey_attempt.user.email if self.survey_attempt.user else 'Anonymous'} on attempt {self.survey_attempt.pk}"
   
+  def __repr__(self):
+    return f"[{self.pk}] {self.answer}"
+  
   def save(self, *args, **kwargs):
     if self.pk:
       self.number_of_changes = len(self.updated_at)
     super().save(*args, **kwargs)
-
-  def __repr__(self):
-    return f"[{self.pk}] {self.answer}"
 
 class MCAAnswer(models.Model):
   survey_attempt = models.ForeignKey(SurveyAttempt, on_delete=models.CASCADE, related_name='mca_answers', db_index=True)
@@ -367,13 +367,13 @@ class MCAAnswer(models.Model):
   def __str__(self):
     return f"[{self.pk}] MCA Answer to {self.question} by {self.survey_attempt.user.email if self.survey_attempt.user else 'Anonymous'} on attempt {self.survey_attempt.pk}"
 
+  def __repr__(self):
+    return f"[{self.pk}] {self.question}"
+
   def save(self, *args, **kwargs):
     if self.pk:
       self.number_of_changes = len(self.updated_at)
     super().save(*args, **kwargs)
-
-  def __repr__(self):
-    return f"[{self.pk}] {self.question}"
 
 class DnDAnswer(models.Model):
   survey_attempt = models.ForeignKey(SurveyAttempt, on_delete=models.CASCADE, related_name='dnd_answers', db_index=True)
@@ -390,13 +390,13 @@ class DnDAnswer(models.Model):
   def __str__(self):
     return f"[{self.pk}] DnD Answer to {self.question} by {self.survey_attempt.user.email if self.survey_attempt.user else 'Anonymous'} on attempt {self.survey_attempt.pk}"
   
+  def __repr__(self):
+    return f"[{self.pk}] {self.answer}"
+
   def save(self, *args, **kwargs):
     if self.pk:
       self.number_of_changes = len(self.updated_at)
     super().save(*args, **kwargs)
-  
-  def __repr__(self):
-    return f"[{self.pk}] {self.answer}"
 
 class TextAnswer(models.Model):
   survey_attempt = models.ForeignKey(SurveyAttempt, on_delete=models.CASCADE, related_name='text_answers', db_index=True)
@@ -415,13 +415,13 @@ class TextAnswer(models.Model):
   def __str__(self):
     return f"[{self.pk}] Answer to {self.question} by {self.survey_attempt.user.email if self.survey_attempt.user else 'Anonymous'} on attempt {self.survey_attempt.pk}"
 
+  def __repr__(self):
+    return f"[{self.pk}] {self.answer}"
+
   def save(self, *args, **kwargs):
     if self.pk:
       self.number_of_changes = len(self.updated_at)
     super().save(*args, **kwargs)
-
-  def __repr__(self):
-    return f"[{self.pk}] {self.answer}"
 
 class SCLAnswer(models.Model):
   survey_attempt = models.ForeignKey(SurveyAttempt, on_delete=models.CASCADE, related_name='scl_answers', db_index=True)
@@ -438,13 +438,13 @@ class SCLAnswer(models.Model):
   def __str__(self):
     return f"[{self.pk}] Answer to {self.question} by {self.survey_attempt.user.email if self.survey_attempt.user else 'Anonymous'} on attempt {self.survey_attempt.pk}"
 
+  def __repr__(self):
+    return f"[{self.pk}]"
+
   def save(self, *args, **kwargs):
     if self.pk:
       self.number_of_changes = len(self.updated_at)
     super().save(*args, **kwargs)
-
-  def __repr__(self):
-    return f"[{self.pk}]"
 
 class ASGOneAnswer(models.Model):
   asg_question = models.ForeignKey(ASGQuestion, on_delete=models.CASCADE, db_index=True)
@@ -475,13 +475,13 @@ class ASGAnswer(models.Model):
   def __str__(self):
     return f"[{self.pk}] ASG Answer to {self.question} by {self.survey_attempt.user.email if self.survey_attempt.user else 'Anonymous'} on attempt {self.survey_attempt.pk}"
   
+  def __repr__(self):
+    return f"[{self.pk}] {self.answer}"
+
   def save(self, *args, **kwargs):
     if self.pk and self.updated_at:
       self.number_of_changes = len(self.updated_at)
     super().save(*args, **kwargs)
-  
-  def __repr__(self):
-    return f"[{self.pk}] {self.answer}"
 
 class RegistrationCode(models.Model):
   email = models.CharField(max_length=320)
